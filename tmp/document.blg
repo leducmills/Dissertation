@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: document.aux
+The style file: plain.bst
+Database file #1: refs.bib
+Repeated entry---line 1295 of file refs.bib
+ : @inproceedings{Leduc-Mills:2011:UCD:1999030.1999039
+ :                                                    ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in economist
+Name 1 in "Inhelder, Barbel, and Jean Piaget" has a comma at the end for entry Piaget
+while executing---line 1049 of file plain.bst
+Name 1 in "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." has a comma at the end for entry goldin
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." for entry goldin
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in makerbot
+Warning--to sort, need author or key in thingiverse
+Warning--to sort, need author or key in stratasys
+Warning--to sort, need author or key in ponoko
+Warning--to sort, need author or key in tinkercad
+Warning--to sort, need author or key in 123Dcatch
+Warning--empty author in economist
+Warning--empty author in 123Dcatch
+Warning--empty author in makerbot
+Warning--empty author in ponoko
+Warning--empty author in stratasys
+Warning--empty author in thingiverse
+Warning--empty author in tinkercad
+Warning--empty booktitle in Ananthanarayan
+Warning--can't use both volume and number fields in eisenberg2011educational
+Warning--empty booktitle in Fabathome
+Warning--empty booktitle in DesktopFactory
+Name 1 in "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." has a comma at the end for entry goldin
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." for entry goldin
+while executing---line 1090 of file plain.bst
+Warning--empty booktitle in goldin
+Warning--empty journal in mechmoves
+Name 1 in "Inhelder, Barbel, and Jean Piaget" has a comma at the end for entry Piaget
+while executing---line 1090 of file plain.bst
+Warning--empty booktitle in Instructables
+Warning--empty year in Instructables
+Warning--empty journal in Kawahara2013a
+Warning--empty booktitle in ArduinoMega
+Warning--empty booktitle in Processing
+Warning--empty booktitle in RepRap
+Warning--empty booktitle in Rhino
+Warning--empty booktitle in Shapeways
+Warning--empty journal in siemankowski1971spatial
+Warning--empty booktitle in SketchUp
+Warning--empty booktitle in Solidworks
+You've used 126 entries,
+            2118 wiz_defined-function locations,
+            1218 strings with 26776 characters,
+and the built_in function-call counts, 48042 in all, are:
+= -- 5038
+> -- 1854
+< -- 71
++ -- 752
+- -- 610
+* -- 2988
+:= -- 7358
+add.period$ -- 436
+call.type$ -- 126
+change.case$ -- 667
+chr.to.int$ -- 0
+cite$ -- 157
+duplicate$ -- 2210
+empty$ -- 3900
+format.name$ -- 610
+if$ -- 10759
+int.to.chr$ -- 0
+int.to.str$ -- 126
+missing$ -- 138
+newline$ -- 626
+num.names$ -- 238
+pop$ -- 816
+preamble$ -- 1
+purify$ -- 557
+quote$ -- 0
+skip$ -- 1679
+stack$ -- 0
+substring$ -- 2925
+swap$ -- 735
+text.length$ -- 71
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 476
+warning$ -- 31
+while$ -- 457
+width$ -- 129
+write$ -- 1501
+(There were 7 error messages)
