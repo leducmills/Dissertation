@@ -105,6 +105,12 @@ Allen Bevans, Ying-Ting Hsiao, and Alissa Antle.
 \newblock In {\em CHI '11 Extended Abstracts on Human Factors in Computing
   Systems}, CHI EA '11, pages 1741--1746, New York, NY, USA, 2011. ACM.
 
+\bibitem{breckinridge1986mismatch}
+R~Breckinridge~Church and Susan Goldin-Meadow.
+\newblock The mismatch between gesture and speech as an index of transitional
+  knowledge.
+\newblock {\em Cognition}, 23(1):43--71, 1986.
+
 \bibitem{breen2003tangible}
 Jack Breen, Robert Nottrot, and Martijn Stellingwerff.
 \newblock Tangible virtuality—perceptions of computer-aided and physical
@@ -288,6 +294,11 @@ H.~Nusbaum S. D.~Delly Goldin-Meadow, S. and S.~Wagner.
 \newblock Explaining math: Gesturing lightens the load.
 \newblock Psychological Science, pages pp. 516--22, 1991.
 
+\bibitem{goldin2005hearing}
+Susan Goldin-Meadow.
+\newblock {\em Hearing gesture: How our hands help us think}.
+\newblock Harvard University Press, 2005.
+
 \bibitem{greenberg2007processing}
 Ira Greenberg.
 \newblock {\em Processing: creative coding and computational art}.
@@ -463,6 +474,11 @@ Ben Leduc-Mills, Halley Profita, and Michael Eisenberg.
   Interaction Design and Children}, IDC '12, pages 377--380, New York, NY, USA,
   2012. ACM.
 
+\bibitem{levine1999early}
+Susan~C Levine, Janellen Huttenlocher, Amy Taylor, and Adela Langrock.
+\newblock Early sex differences in spatial skill.
+\newblock {\em Developmental psychology}, 35(4):940, 1999.
+
 \bibitem{lipson2010factory}
 Hod Lipson and Melba Kurman.
 \newblock Factory@ home: The emerging economy of personal fabrication.
@@ -578,7 +594,7 @@ Processing.
 
 \bibitem{RepRap}
 The~RepRap Project.
-\newblock reprap.org/wiki/main_page.
+\newblock reprap.org/wiki/main\_page.
 \newblock 2011.
 
 \bibitem{Qi:2010:EPE:1709886.1709909}

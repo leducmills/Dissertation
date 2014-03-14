@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  9 FEB 2014 21:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  14 MAR 2014 14:57
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -143,114 +143,6 @@ Package color Info: Driver file: pdftex.def on input line 130.
 \everycr=\toks19
 \minrowclearance=\skip49
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
-Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
-Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
-Package atveryend Info: \enddocument detected (standard).
-Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
-Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
-)
-\@linkdim=\dimen110
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count96
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4026.
-Package hyperref Info: Link nesting OFF on input line 4031.
-Package hyperref Info: Hyper index ON on input line 4034.
-Package hyperref Info: Plain pages OFF on input line 4041.
-Package hyperref Info: Backreferencing OFF on input line 4046.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4264.
-\c@Hy@tempcnt=\count97
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4617.
-\Fld@menulength=\count98
-\Field@Width=\dimen111
-\Fld@charsize=\dimen112
-Package hyperref Info: Hyper figures OFF on input line 5701.
-Package hyperref Info: Link nesting OFF on input line 5706.
-Package hyperref Info: Hyper index ON on input line 5709.
-Package hyperref Info: backreferencing OFF on input line 5716.
-Package hyperref Info: Link coloring OFF on input line 5721.
-Package hyperref Info: Link coloring with OCG OFF on input line 5726.
-Package hyperref Info: PDF/A mode OFF on input line 5731.
-LaTeX Info: Redefining \ref on input line 5771.
-LaTeX Info: Redefining \pageref on input line 5775.
-\Hy@abspage=\count99
-\c@Item=\count100
-\c@Hfootnote=\count101
-)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
-\Fld@listcount=\count102
-\c@bookmark@seq@number=\count103
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-)
-\Hy@SectionHShift=\skip50
-)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
@@ -259,34 +151,33 @@ Package: caption 2010/01/09 v3.1m Customizing captions (AR)
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
-\captionmargin=\dimen113
-\captionmargin@=\dimen114
-\captionwidth=\dimen115
-\caption@indent=\dimen116
-\caption@parindent=\dimen117
-\caption@hangindent=\dimen118
+\captionmargin=\dimen110
+\captionmargin@=\dimen111
+\captionwidth=\dimen112
+\caption@indent=\dimen113
+\caption@parindent=\dimen114
+\caption@hangindent=\dimen115
 )
-\c@ContinuedFloat=\count104
-Package caption Info: hyperref package is loaded.
+\c@ContinuedFloat=\count94
 Package caption Info: rotating package is loaded.
 )
-\c@KVtest=\count105
-\sf@farskip=\skip51
-\sf@captopadj=\dimen119
-\sf@capskip=\skip52
-\sf@nearskip=\skip53
-\c@subfigure=\count106
-\c@subfigure@save=\count107
-\c@lofdepth=\count108
-\c@subtable=\count109
-\c@subtable@save=\count110
-\c@lotdepth=\count111
-\sf@top=\skip54
-\sf@bottom=\skip55
+\c@KVtest=\count95
+\sf@farskip=\skip50
+\sf@captopadj=\dimen116
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count96
+\c@subfigure@save=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@subtable@save=\count100
+\c@lotdepth=\count101
+\sf@top=\skip53
+\sf@bottom=\skip54
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip56
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -295,96 +186,132 @@ Package: amstext 2000/06/29 v2.01
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
-\ex@=\dimen120
+\ex@=\dimen117
 ))
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen121
+\pmbraise@=\dimen118
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count112
+\inf@bad=\count102
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count113
-\leftroot@=\count114
+\uproot@=\count103
+\leftroot@=\count104
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count115
-\DOTSCASE@=\count116
+\classnum@=\count105
+\DOTSCASE@=\count106
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen122
+\big@size=\dimen119
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count117
-\c@MaxMatrixCols=\count118
-\dotsspace@=\muskip11
-\c@parentequation=\count119
-\dspbrk@lvl=\count120
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip10
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
 \tag@help=\toks21
-\row@=\count121
-\column@=\count122
-\maxfields@=\count123
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
 \andhelp@=\toks22
-\eqnshift@=\dimen123
-\alignsep@=\dimen124
-\tagshift@=\dimen125
-\tagwidth@=\dimen126
-\totwidth@=\dimen127
-\lineht@=\dimen128
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
 \@envbody=\toks23
-\multlinegap=\skip57
-\multlinetaggap=\skip58
+\multlinegap=\skip56
+\multlinetaggap=\skip57
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-Putting page number on short ToC
-Putting page number on short LoF
-Putting page number on short LoT
 (./document.aux
 
 LaTeX Warning: Label `fig:kidcad' multiply defined.
 
+
+LaTeX Warning: Label `codingStrategy' multiply defined.
+
+
+LaTeX Warning: Label `codingStrategy' multiply defined.
+
+
+LaTeX Warning: Label `codingStrategy' multiply defined.
+
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
  (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
-\scratchdimen=\dimen129
+\scratchcounter=\count114
+\scratchdimen=\dimen126
 \scratchbox=\box32
-\nofMPsegments=\count125
-\nofMParguments=\count126
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count127
-\MPscratchDim=\dimen130
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen127
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks26
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
-)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -394,28 +321,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 82.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count130
-)
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
-
-(./document.out) (./document.out)
-\@outlinefile=\write3
-\openout3 = `document.out'.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 82.
+LaTeX Info: Redefining \subref on input line 113.
 Package caption Info: End \AtBeginDocument code.
 
 Making Title Page
@@ -440,404 +348,44 @@ Making Acknowledgement Page
 ]
 centered
 Making ToC Page
-Making Short ToC...
 [5
 
 
 ]
 centered
-Short Chapter (page numbered)
 (./document.toc
-! Argument of \contentsline has an extra }.
-<inserted text> 
-                \par 
-l.2 \contentsline
-                  {chapter}{\numberline {\th@ChapterStyle 1}\relax \fontsize...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.2 \contentsline
-                  {chapter}{\numberline {\th@ChapterStyle 1}\relax \fontsize...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{
-! Paragraph ended before \HyperDestNameFilter was complete.
-<to be read again> 
-                   \par 
-l.2 \contentsline
-                  {chapter}{\numberline {\th@ChapterStyle 1}\relax \fontsize...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\Hy@pstringdef ...y@gtemp {\pdf@escapestring {#2}}
-                                                  \endgroup \let #1\Hy@gtemp 
-l.2 \contentsline
-                  {chapter}{\numberline {\th@ChapterStyle 1}\relax \fontsize...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...normalfont Prototype Systems}{3}{chapter.2}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [6
 
-]
-! Argument of \contentsline has an extra }.
-<inserted text> 
-                \par 
-l.28 \contentsline
-                   {chapter}{\numberline {\th@ChapterStyle A}\relax \fontsiz...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.28 \contentsline
-                   {chapter}{\numberline {\th@ChapterStyle A}\relax \fontsiz...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{
-! Paragraph ended before \HyperDestNameFilter was complete.
-<to be read again> 
-                   \par 
-l.28 \contentsline
-                   {chapter}{\numberline {\th@ChapterStyle A}\relax \fontsiz...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\Hy@pstringdef ...y@gtemp {\pdf@escapestring {#2}}
-                                                  \endgroup \let #1\Hy@gtemp 
-l.28 \contentsline
-                   {chapter}{\numberline {\th@ChapterStyle A}\relax \fontsiz...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...@ \normalfont Ode to Spot}{47}{appendix.B}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-\tf@toc=\write4
-\openout4 = `document.toc'.
+])
+\tf@toc=\write3
+\openout3 = `document.toc'.
 
 
 Making LoT Page
-Making Short LoT...
 [7]
 centered
-Short Chapter (page numbered)
-(./document.lot
-! Argument of \addvspace has an extra }.
-<inserted text> 
-                \par 
-l.2 \addvspace
-               {10\p@ }
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \addvspace was complete.
-<to be read again> 
-                   \par 
-l.2 \addvspace
-               {10\p@ }
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{
-! Paragraph ended before \HyperDestNameFilter was complete.
-<to be read again> 
-                   \par 
-l.2 \addvspace
-               {10\p@ }
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\Hy@pstringdef ...y@gtemp {\pdf@escapestring {#2}}
-                                                  \endgroup \let #1\Hy@gtemp 
-l.2 \addvspace
-               {10\p@ }
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2 \addvspace {10\p@ }
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2 \addvspace {10\p@ }
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \addvspace {10\p@ }
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-\tf@lot=\write5
-\openout5 = `document.lot'.
+(./document.lot)
+\tf@lot=\write4
+\openout4 = `document.lot'.
 
 
 Making LoF Page
-Making Short LoF...
 [8
 
 ]
 centered
-Short Chapter (page numbered)
-(./document.lof
-! Argument of \addvspace has an extra }.
-<inserted text> 
-                \par 
-l.2 \addvspace
-               {10\p@ }
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
+(./document.lof [9
 
-Runaway argument?
-! Paragraph ended before \addvspace was complete.
-<to be read again> 
-                   \par 
-l.2 \addvspace
-               {10\p@ }
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{
-! Paragraph ended before \HyperDestNameFilter was complete.
-<to be read again> 
-                   \par 
-l.2 \addvspace
-               {10\p@ }
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\Hy@pstringdef ...y@gtemp {\pdf@escapestring {#2}}
-                                                  \endgroup \let #1\Hy@gtemp 
-l.2 \addvspace
-               {10\p@ }
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2 \addvspace {10\p@ }
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2 \addvspace {10\p@ }
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \addvspace {10\p@ }
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9
-
-])
-\tf@lof=\write6
-\openout6 = `document.lof'.
+] [10])
+\tf@lof=\write5
+\openout5 = `document.lof'.
 
 
 
@@ -845,149 +393,216 @@ If that doesn't work, type  X <return>  to quit.
 -------------------Beginning Body----------------------
 
 
-[10] (./macros.tex
-\c@th@theorem=\count131
+[11] (./macros.tex
+\c@th@theorem=\count120
 ) (./1_introduction.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
-) (./2_prototypeSystems.tex [1
+[1
 
 
-] [2]
+]) (./2_prototypeSystems.tex [2]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 centered
 [3
 
-] <images/Geoboard.jpg, id=251, 1114.9655pt x 1106.534pt>
+] <images/Geoboard.jpg, id=50, 1114.9655pt x 1106.534pt>
 File: images/Geoboard.jpg Graphic file (type jpg)
 
 <use images/Geoboard.jpg>
-Package pdftex.def Info: images/Geoboard.jpg used on input line 34.
+Package pdftex.def Info: images/Geoboard.jpg used on input line 42.
 (pdftex.def)             Requested size: 234.87749pt x 233.08813pt.
  [4 <./images/Geoboard.jpg>]
-<images/UCube-2.jpg, id=259, 2590.67876pt x 3886.52pt>
-File: images/UCube-2.jpg Graphic file (type jpg)
+<images/ucube1_triPrism.jpg, id=54, 1098.504pt x 1464.672pt>
+File: images/ucube1_triPrism.jpg Graphic file (type jpg)
 
-<use images/UCube-2.jpg>
-Package pdftex.def Info: images/UCube-2.jpg used on input line 71.
-(pdftex.def)             Requested size: 164.4171pt x 246.64302pt.
+<use images/ucube1_triPrism.jpg>
+Package pdftex.def Info: images/ucube1_triPrism.jpg used on input line 82.
+(pdftex.def)             Requested size: 164.4171pt x 219.22198pt.
 
-<images/ucube_diagram.png, id=260, 580.0872pt x 626.34pt>
-File: images/ucube_diagram.png Graphic file (type png)
-
-<use images/ucube_diagram.png>
-Package pdftex.def Info: images/ucube_diagram.png used on input line 72.
-(pdftex.def)             Requested size: 225.48038pt x 243.45924pt.
-
-<images/ucube1_software.png, id=262, 696.6025pt x 593.21625pt>
+<images/ucube1_software.png, id=55, 696.6025pt x 593.21625pt>
 File: images/ucube1_software.png Graphic file (type png)
 
 <use images/ucube1_software.png>
-Package pdftex.def Info: images/ucube1_software.png used on input line 100.
-(pdftex.def)             Requested size: 211.3883pt x 180.01193pt.
+Package pdftex.def Info: images/ucube1_software.png used on input line 83.
+(pdftex.def)             Requested size: 234.87749pt x 200.01628pt.
 
-<images/ucube1_user.jpg, id=263, 1464.672pt x 1098.504pt>
-File: images/ucube1_user.jpg Graphic file (type jpg)
+<images/ucube_diagram.png, id=56, 580.0872pt x 626.34pt>
+File: images/ucube_diagram.png Graphic file (type png)
 
-<use images/ucube1_user.jpg>
-Package pdftex.def Info: images/ucube1_user.jpg used on input line 101.
-(pdftex.def)             Requested size: 211.3883pt x 158.5331pt.
+<use images/ucube_diagram.png>
+Package pdftex.def Info: images/ucube_diagram.png used on input line 97.
+(pdftex.def)             Requested size: 234.87749pt x 253.5994pt.
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
+
+
+LaTeX Warning: Reference `fig:cubev2' on page 5 undefined on input line 113.
+
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
- [5 <./images/UCube-2.jpg> <./images/ucube_diagram.png>] [6] <images/BeatriceFi
-nal-2.jpg, id=276, 3886.52pt x 2590.67876pt>
+[5]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <./images/ucube1_triPrism.jpg> <./images/ucube1_software.png> <./images/ucub
+e_diagram.png>] [7] [8]
+<images/BeatriceFinal-2.jpg, id=72, 3886.52pt x 2590.67876pt>
 File: images/BeatriceFinal-2.jpg Graphic file (type jpg)
 
 <use images/BeatriceFinal-2.jpg>
-Package pdftex.def Info: images/BeatriceFinal-2.jpg used on input line 255.
+Package pdftex.def Info: images/BeatriceFinal-2.jpg used on input line 212.
 (pdftex.def)             Requested size: 211.3883pt x 140.88678pt.
 
-<images/BeatriceFinal-14.jpg, id=277, 3887.52374pt x 2591.6825pt>
+<images/BeatriceFinal-14.jpg, id=73, 3887.52374pt x 2591.6825pt>
 File: images/BeatriceFinal-14.jpg Graphic file (type jpg)
 
 <use images/BeatriceFinal-14.jpg>
-Package pdftex.def Info: images/BeatriceFinal-14.jpg used on input line 256.
+Package pdftex.def Info: images/BeatriceFinal-14.jpg used on input line 213.
 (pdftex.def)             Requested size: 211.3883pt x 140.90182pt.
- [7]
-<images/twoHulls.png, id=285, 1145.27875pt x 591.20876pt>
+
+<images/twoHulls.png, id=74, 1145.27875pt x 591.20876pt>
 File: images/twoHulls.png Graphic file (type png)
 
 <use images/twoHulls.png>
-Package pdftex.def Info: images/twoHulls.png used on input line 288.
+Package pdftex.def Info: images/twoHulls.png used on input line 233.
 (pdftex.def)             Requested size: 211.3883pt x 109.11931pt.
- <images/mst.png, id=286, 1064.97874pt x 493.845pt>
+ <images/mst.png, id=75, 1064.97874pt x 493.845pt>
 File: images/mst.png Graphic file (type png)
 
 <use images/mst.png>
-Package pdftex.def Info: images/mst.png used on input line 289.
+Package pdftex.def Info: images/mst.png used on input line 234.
 (pdftex.def)             Requested size: 211.3883pt x 98.02122pt.
- [8] <images/popup1.jpg, id=293, 3276.24pt x 2457.18pt>
+ [9]
+<images/snap_schematic.png, id=79, 240.9pt x 234.1548pt>
+File: images/snap_schematic.png Graphic file (type png)
+
+<use images/snap_schematic.png>
+Package pdftex.def Info: images/snap_schematic.png used on input line 269.
+(pdftex.def)             Requested size: 211.3883pt x 205.47447pt.
+Missing character: There is no Ð in font cmr10!
+ [10 <./images/BeatriceFinal-2.jpg> <./images/BeatriceFinal-14.jpg>] [11 <./ima
+ges/twoHulls.png> <./images/mst.png> <./images/snap_schematic.png>] [12] <image
+s/popup1.jpg, id=90, 3276.24pt x 2457.18pt>
 File: images/popup1.jpg Graphic file (type jpg)
 
 <use images/popup1.jpg>
-Package pdftex.def Info: images/popup1.jpg used on input line 394.
+Package pdftex.def Info: images/popup1.jpg used on input line 391.
 (pdftex.def)             Requested size: 211.3883pt x 158.5225pt.
- <images/popup2.jpg, id=294, 3276.24pt x 2457.18pt>
+ <images/popup2.jpg, id=91, 3276.24pt x 2457.18pt>
 File: images/popup2.jpg Graphic file (type jpg)
 
 <use images/popup2.jpg>
-Package pdftex.def Info: images/popup2.jpg used on input line 395.
+Package pdftex.def Info: images/popup2.jpg used on input line 392.
 (pdftex.def)             Requested size: 211.3883pt x 158.5225pt.
- [9] [10]) (./3_RelatedWork.tex [11] [12 <./images/ucube1_software.png> <./imag
-es/ucube1_user.jpg> <./images/BeatriceFinal-2.jpg> <./images/BeatriceFinal-14.j
-pg>] [13 <./images/twoHulls.png> <./images/mst.png> <./images/popup1.jpg> <./im
-ages/popup2.jpg>]
+ [13 <./images/popup1.jpg> <./images/popup2.jpg>]
+<images/PopCadSchematicV1.png, id=95, 382.0674pt x 672.5928pt>
+File: images/PopCadSchematicV1.png Graphic file (type png)
+
+<use images/PopCadSchematicV1.png>
+Package pdftex.def Info: images/PopCadSchematicV1.png used on input line 424.
+(pdftex.def)             Requested size: 187.89912pt x 330.77411pt.
+
+<images/PopCadSchematicV2.png, id=96, 389.7762pt x 652.3572pt>
+File: images/PopCadSchematicV2.png Graphic file (type png)
+
+<use images/PopCadSchematicV2.png>
+Package pdftex.def Info: images/PopCadSchematicV2.png used on input line 425.
+(pdftex.def)             Requested size: 197.29623pt x 330.20923pt.
+
+<images/pop3.jpg, id=97, 3011.25pt x 4015.0pt>
+File: images/pop3.jpg Graphic file (type jpg)
+ <use images/pop3.jpg>
+Package pdftex.def Info: images/pop3.jpg used on input line 450.
+(pdftex.def)             Requested size: 211.3883pt x 281.81389pt.
+
+<images/popcad_pic2.jpg, id=98, 3011.25pt x 4015.0pt>
+File: images/popcad_pic2.jpg Graphic file (type jpg)
+
+<use images/popcad_pic2.jpg>
+Package pdftex.def Info: images/popcad_pic2.jpg used on input line 451.
+(pdftex.def)             Requested size: 211.3883pt x 281.81389pt.
+
+<images/pop_circuit2-2.jpg, id=99, 2263.45625pt x 3019.28pt>
+File: images/pop_circuit2-2.jpg Graphic file (type jpg)
+
+<use images/pop_circuit2-2.jpg>
+Package pdftex.def Info: images/pop_circuit2-2.jpg used on input line 460.
+(pdftex.def)             Requested size: 211.3696pt x 252.92673pt.
+
+<images/popcad_circuit-3.jpg, id=100, 2218.2875pt x 3198.95125pt>
+File: images/popcad_circuit-3.jpg Graphic file (type jpg)
+
+<use images/popcad_circuit-3.jpg>
+Package pdftex.def Info: images/popcad_circuit-3.jpg used on input line 461.
+(pdftex.def)             Requested size: 211.38261pt x 252.9438pt.
+ [14] [15 <./images/PopCadSchematicV1.png (PNG copy)> <./images/PopCadSchematic
+V2.png (PNG copy)>] [16 <./images/pop3.jpg> <./images/popcad_pic2.jpg>] [17 <./
+images/pop_circuit2-2.jpg> <./images/popcad_circuit-3.jpg>] <images/software_1.
+png, id=114, 242.3454pt x 97.8054pt>
+File: images/software_1.png Graphic file (type png)
+
+<use images/software_1.png>
+Package pdftex.def Info: images/software_1.png used on input line 554.
+(pdftex.def)             Requested size: 211.3883pt x 85.31087pt.
+
+<images/software_2.png, id=115, 240.9pt x 100.6962pt>
+File: images/software_2.png Graphic file (type png)
+
+<use images/software_2.png>
+Package pdftex.def Info: images/software_2.png used on input line 555.
+(pdftex.def)             Requested size: 211.3883pt x 88.36246pt.
+ [18 <./images/software_1.png> <./images/software_2.png>]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ð in font cmr10!
+ [19] [20]
+Missing character: There is no Ð in font cmr10!
+) (./3_RelatedWork.tex [21]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
-[14
+[22
 
-] [15] <images/activecube.png, id=366, 582.175pt x 268.00125pt>
+] [23] <images/activecube.png, id=140, 582.175pt x 268.00125pt>
 File: images/activecube.png Graphic file (type png)
 
 <use images/activecube.png>
 Package pdftex.def Info: images/activecube.png used on input line 109.
-(pdftex.def)             Requested size: 267.76378pt x 123.2657pt.
+(pdftex.def)             Requested size: 253.66454pt x 116.77179pt.
 
-<images/roblocks.png, id=367, 573.14125pt x 383.4325pt>
+<images/roblocks.png, id=141, 573.14125pt x 383.4325pt>
 File: images/roblocks.png Graphic file (type png)
 
 <use images/roblocks.png>
 Package pdftex.def Info: images/roblocks.png used on input line 110.
-(pdftex.def)             Requested size: 183.20415pt x 122.56633pt.
+(pdftex.def)             Requested size: 173.80704pt x 116.27682pt.
 
-Overfull \hbox (1.21294pt too wide) in paragraph at lines 107--112
- []$[]$ 
- []
-
-<images/interactiveLaser.png, id=372, 378.41376pt x 309.155pt>
+<images/interactiveLaser.png, id=142, 378.41376pt x 309.155pt>
 File: images/interactiveLaser.png Graphic file (type png)
 
 <use images/interactiveLaser.png>
-Package pdftex.def Info: images/interactiveLaser.png used on input line 131.
+Package pdftex.def Info: images/interactiveLaser.png used on input line 132.
 (pdftex.def)             Requested size: 187.89912pt x 153.511pt.
 
-<images/interactiveFab.png, id=373, 575.14874pt x 356.33125pt>
+<images/interactiveFab.png, id=143, 575.14874pt x 356.33125pt>
 File: images/interactiveFab.png Graphic file (type png)
 
 <use images/interactiveFab.png>
-Package pdftex.def Info: images/interactiveFab.png used on input line 132.
+Package pdftex.def Info: images/interactiveFab.png used on input line 133.
 (pdftex.def)             Requested size: 253.66454pt x 157.15594pt.
- [16]
-<images/kidcad.png, id=391, 527.9725pt x 425.59pt>
+ [24]
+<images/kidcad.png, id=147, 527.9725pt x 425.59pt>
 File: images/kidcad.png Graphic file (type png)
  <use images/kidcad.png>
-Package pdftex.def Info: images/kidcad.png used on input line 147.
+Package pdftex.def Info: images/kidcad.png used on input line 148.
 (pdftex.def)             Requested size: 211.3883pt x 170.39532pt.
 
-<images/easigami.png, id=392, 824.07875pt x 620.3175pt>
+<images/easigami.png, id=148, 824.07875pt x 620.3175pt>
 File: images/easigami.png Graphic file (type png)
 
 <use images/easigami.png>
-Package pdftex.def Info: images/easigami.png used on input line 148.
+Package pdftex.def Info: images/easigami.png used on input line 149.
 (pdftex.def)             Requested size: 211.3883pt x 159.12067pt.
- [17 <./images/activecube.png> <./images/roblocks.png>]
+ [25 <./images/activecube.png> <./images/roblocks.png>]
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no – in font cmr10!
 Missing character: There is no Ð in font cmr10!
@@ -995,17 +610,12 @@ Missing character: There is no – in font cmr10!
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
-) (./4_Technical_Implementation.tex [18 <./images/interactiveLaser.png> <./imag
-es/interactiveFab.png>] [19 <./images/kidcad.png> <./images/easigami.png>]
-[20]
+ [26 <./images/interactiveLaser.png> <./images/interactiveFab.png>] [27 <./imag
+es/kidcad.png> <./images/easigami.png>] [28] [29]) (./4_Evaluation.tex
+[30]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
 centered
-) (./5_Evaluation.tex [21
-
-]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
-centered
-<images/ucubescreentest.png, id=429, 1260.71pt x 620.3175pt>
+<images/ucubescreentest.png, id=168, 1260.71pt x 620.3175pt>
 File: images/ucubescreentest.png Graphic file (type png)
 
 <use images/ucubescreentest.png>
@@ -1016,202 +626,149 @@ Package pdftex.def Info: images/ucubescreentest.png used on input line 28.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no Ð in font cmr10!
-[22
+[31
 
 ]
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
- [23 <./images/ucubescreentest.png>] [24] [25]
+ [32 <./images/ucubescreentest.png>] [33] [34]
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
- [26]
-<images/ucube_shapes.png, id=452, 1410.26875pt x 792.9625pt>
+ [35]
+<images/ucube_shapes.png, id=185, 1410.26875pt x 792.9625pt>
 File: images/ucube_shapes.png Graphic file (type png)
 
 <use images/ucube_shapes.png>
 Package pdftex.def Info: images/ucube_shapes.png used on input line 171.
 (pdftex.def)             Requested size: 375.80542pt x 211.30772pt.
 Missing character: There is no Õ in font cmr10!
- [27 <./images/ucube_shapes.png>]
-<images/modeling1.png, id=459, 400.8576pt x 202.8378pt>
+ [36 <./images/ucube_shapes.png>]
+<images/modeling1.png, id=189, 400.8576pt x 202.8378pt>
 File: images/modeling1.png Graphic file (type png)
 
 <use images/modeling1.png>
-Package pdftex.def Info: images/modeling1.png used on input line 211.
-(pdftex.def)             Requested size: 211.38922pt x 126.47308pt.
+Package pdftex.def Info: images/modeling1.png used on input line 212.
+(pdftex.def)             Requested size: 220.79042pt x 126.47308pt.
 
-<images/modeling2.png, id=460, 405.1938pt x 225.9642pt>
+<images/modeling2.png, id=190, 405.1938pt x 225.9642pt>
 File: images/modeling2.png Graphic file (type png)
 
 <use images/modeling2.png>
-Package pdftex.def Info: images/modeling2.png used on input line 212.
-(pdftex.def)             Requested size: 211.38828pt x 126.47357pt.
- [28 <./images/modeling1.png> <./images/modeling2.png>] <images/matching1.png, 
-id=469, 402.7848pt x 183.5658pt>
+Package pdftex.def Info: images/modeling2.png used on input line 213.
+(pdftex.def)             Requested size: 220.78606pt x 126.47357pt.
+ [37 <./images/modeling1.png> <./images/modeling2.png>] <images/matching1.png, 
+id=196, 402.7848pt x 183.5658pt>
 File: images/matching1.png Graphic file (type png)
 
 <use images/matching1.png>
-Package pdftex.def Info: images/matching1.png used on input line 251.
-(pdftex.def)             Requested size: 211.38528pt x 126.47285pt.
+Package pdftex.def Info: images/matching1.png used on input line 252.
+(pdftex.def)             Requested size: 220.7825pt x 126.47285pt.
 
-<images/matching2.png, id=470, 396.0396pt x 185.493pt>
+<images/matching2.png, id=197, 396.0396pt x 185.493pt>
 File: images/matching2.png Graphic file (type png)
 
 <use images/matching2.png>
-Package pdftex.def Info: images/matching2.png used on input line 252.
-(pdftex.def)             Requested size: 211.38657pt x 126.47038pt.
- [29 <./images/matching1.png> <./images/matching2.png>]
+Package pdftex.def Info: images/matching2.png used on input line 253.
+(pdftex.def)             Requested size: 220.78354pt x 126.47038pt.
+ [38 <./images/matching1.png> <./images/matching2.png>]
 Missing character: There is no Ð in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
- <images/idc3.png, id=480, 248.93pt x 233.87375pt>
+ <images/idc3.png, id=204, 248.93pt x 233.87375pt>
 File: images/idc3.png Graphic file (type png)
  <use images/idc3.png>
 Package pdftex.def Info: images/idc3.png used on input line 302.
 (pdftex.def)             Requested size: 211.3883pt x 198.60803pt.
 
+[39] [40 <./images/idc3.png>]
+<images/SpatialTestArray.png, id=212, 571.13374pt x 525.965pt>
+File: images/SpatialTestArray.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use images/SpatialTestArray.png>
+Package pdftex.def Info: images/SpatialTestArray.png used on input line 371.
+(pdftex.def)             Requested size: 234.87749pt x 216.2971pt.
+ [41]
+File: images/ucube_shapes.png Graphic file (type png)
+ <use images/ucube_shapes.png>
+Package pdftex.def Info: images/ucube_shapes.png used on input line 407.
+(pdftex.def)             Requested size: 220.78433pt x 126.4652pt.
 
-! You can't use `macro parameter character #' in horizontal mode.
-l.317 ...lccenter.org/index.php/testsainstruments#
-                                                  MRT for the instruments, see
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+<images/studyshapes.png, id=216, 205.76875pt x 156.585pt>
+File: images/studyshapes.png Graphic file (type png)
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.318 ...www.spatialintelligence.org/publications_
-                                                  pdfs/Ehrlich\%20Levine\%20...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.357 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+<use images/studyshapes.png>
+Package pdftex.def Info: images/studyshapes.png used on input line 408.
+(pdftex.def)             Requested size: 220.78577pt x 126.47714pt.
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
-
-Overfull \hbox (36.79292pt too wide) in paragraph at lines 314--357
-\OT1/cmr/m/n/10.95 in-stru-ments, see http://www.spatialintelligence.org/public
-ations$[]\OML/cmm/m/it/10.95 dfs=Ehrlich\OT1/cmr/m/n/10.95 %20\OML/cmm/m/it/10.
-95 Levine\OT1/cmr/m/n/10.95 %20%20\OML/cmm/m/it/10.95 Goldin \OMS/cmsy/m/n/10.9
-5 ^^@
+ [42 <./images/SpatialTestArray.png>]
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Õ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Õ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Õ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Õ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+ [43 <./images/studyshapes.png>]
+Overfull \hbox (2.59874pt too wide) in paragraph at lines 526--526
+[]|[]\OT1/cmr/m/n/10 Movement| 
  []
 
 
-Overfull \hbox (15.0154pt too wide) in paragraph at lines 314--357
-\OML/cmm/m/it/10.95 Meadow\OT1/cmr/m/n/10.95 %20%282006%29\OML/cmm/m/it/10.95 :
-pdfp:\OT1/cmr/m/n/10.95 1260 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 1261\OM
-L/cmm/m/it/10.95 foragooddescriptionofthestudyprocedure:\OT1/cmr/m/n/10.95 )\OM
-L/cmm/m/it/10.95 :Afterthepre \OMS/cmsy/m/n/10.95 ^^@
+Underfull \hbox (badness 2293) in paragraph at lines 526--526
+[]|\OT1/cmr/m/n/10 Any in-di-ca-tion of move-
  []
 
 
-Overfull \hbox (1654.87428pt too wide) in paragraph at lines 314--357
-\OML/cmm/m/it/10.95 assessment; participantswillbesplitintotwogroups\OT1/cmr/m/
-n/10.95 ( []10\OML/cmm/m/it/10.95 studentseach\OT1/cmr/m/n/10.95 )\OML/cmm/m/it
-/10.95 ; withgroupAmodelingfirstonthePopCADandgroupBmodelingfirstontheSnapCAD\O
-T1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 asimilarmodelingdevicemadefrommorerigidma
-terials; andrepresentingamoreexpressivepotentialmodelingspacewithadifferentmean
-sofselectingpointsinspace\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :Theevaluating
-ofeachdevicewillconsistofthreemodelingexercises; evaluatingthethreemainmodeling
-modesinthesoftware \OT1/cmr/m/n/10.95 :
+Overfull \hbox (3.87651pt too wide) in paragraph at lines 528--528
+[]|[]\OT1/cmr/m/n/10 Perceptual
  []
 
 
-Overfull \hbox (336.41539pt too wide) in paragraph at lines 314--357
-\OML/cmm/m/it/10.95 convexhull; path; andminimalspanningtree:Thebasicoperationa
-ndabriefexplanationofeachmodewillbegiventotheparticipantsbeforeeachnewmodelingm
-ode:Four\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 D \OMS/cmsy/m/n/10.95 ^^@
+Overfull \hbox (3.87651pt too wide) in paragraph at lines 531--531
+[]|[]\OT1/cmr/m/n/10 Perceptual
  []
 
 
-Overfull \hbox (5439.57458pt too wide) in paragraph at lines 314--357
-\OML/cmm/m/it/10.95 printedmodelsrepresentativeofeachmodewillbepresentedtotheus
-erinarandomorder; foratotalof\OT1/cmr/m/n/10.95 12\OML/cmm/m/it/10.95 modelingt
-asks:Therandomordershallbedeterminedbyacomputerprogram; andeachtaskwillbecutoff
-at\OT1/cmr/m/n/10.95 10\OML/cmm/m/it/10.95 minutes:Successfulcompletion\OT1/cmr
-/m/n/10.95 (\OML/cmm/m/it/10.95 orlackthereof\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/
-10.95 ; timetocompletion; andobservationalnotesshallberecordedforeachtask:Parti
-cipantswillbeaskedtothinkaloudabouttheirprocess; difficulties; modelingchoices;
- etc:Videowillberecordedforthepurposesofanalyzingusergestureswhenaskedabouthowt
-heyarrivedatacertainsolution:Afreehandactivitywilloccurbeforeandafterthemodelin
-gtasks\OT1/cmr/m/n/10.95 (10\OML/cmm/m/it/10.95 minuteseachtime\OT1/cmr/m/n/10.
-95 )\OML/cmm/m/it/10.95 tohelptogetasenseofthekindsofshapesandmodesused; theove
-rallusabilityoftheinterface; andasenseoftheexpressiverangeoftherelativepointarr
-ays; \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 PopCADhasa\OT1/cmr/m/n/10.95 3\OML
-/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 3\
-OML/cmm/m/it/10.95 equidistantgridof\OT1/cmr/m/n/10.95 27\OML/cmm/m/it/10.95 in
-dividualpoints; SnapCADhasa\OT1/cmr/m/n/10.95 7\OML/cmm/m/it/10.95 x\OT1/cmr/m/
-n/10.95 7\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 7\OML/cmm/m/it/10.95 gridof\OT
-1/cmr/m/n/10.95 343\OML/cmm/m/it/10.95 points\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/
-10.95 :Byaskingparticipantstothinkaloudabouttheirintentionsandthinkingprocesses
-; adeeperunderstandingmaybegainedofthestrengthsandweaknessesofthesystem:Additio
-nally; themodelingmodesused; relativetimespentusingeachmode; andcomplexity\OT1/
-cmr/m/n/10.95 (\OML/cmm/m/it/10.95 innumberofpoints\OT1/cmr/m/n/10.95 )\OML/cmm
-/m/it/10.95 ofthefinalobjectmodeledwillberecorded:Afterthefirstsetofmodelingtas
-ks; userswillbegivenamid \OMS/cmsy/m/n/10.95 ^^@
+Underfull \hbox (badness 3601) in paragraph at lines 532--532
+[]|[]\OT1/cmr/m/n/10 Gesture in-di-cat-ing in-clu-
  []
 
 
-Overfull \hbox (2766.23302pt too wide) in paragraph at lines 314--357
-\OML/cmm/m/it/10.95 termassessmentusingthesameMentalTransformationTaskasbefore\
-OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 althoughdifferentindividualproblemswillb
-epresented\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :Aweekorsolater; participants
-willmodelonthedevicetheyhavenotused:Exerciseswillbeconsistentbydevice; butmaydi
-fferslightlybetweendevicesinordertoteaseoutsomeofthepotentialdifferencesineachd
-esign:Oncemodelingontheseconddeviceiscompleted; userswilltakefinalassessmenttog
-augeifanyimprovementinspatialreasoningskillshasoccurredthroughoutthestudy:Aroun
-d\OT1/cmr/m/n/10.95 20\OML/cmm/m/it/10.95 participantswillbeenrolledinthestudy:
-Eachindividualsessionshouldtake\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 hoursorl
-ess; andtheoveralldurationofthestudywillbethreeweeks:Nocontrolgroupwillbeused:$
- 
+Underfull \hbox (badness 2012) in paragraph at lines 534--535
+\OT1/cmr/m/n/10 not in-di-cate any spe-cific
  []
 
-[30]
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
- [31]
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-) (./5_vision.tex [32] [33 <./images/idc3.png>]
+
+Underfull \hbox (badness 4859) in paragraph at lines 536--536
+[]|\OT1/cmr/m/n/10 Any strat-egy not listed
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 537--540
+\OT1/cmr/m/n/10 straight line through the
+ []
+
+[44] [45] [46]) (./5_vision.tex [47] [48]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
+centered
+) (./6_future_work.tex [49
+
+]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 6.
 centered
-) (./6_future_work.tex [34
-
-]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 7.
-centered
-) (./document.bbl [35
+) (./document.bbl [50
 
 ]
 centered
-[36
+[51
 
 ]
 Missing character: There is no Ñ in font cmr10!
- [37] [38]
+ [52] [53]
 ! Misplaced alignment tab character &.
-l.271 \newblock A. Lovell &
+l.277 \newblock A. Lovell &
                             Company, New York, 1886.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1221,13 +778,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (184.27895pt too wide) in paragraph at lines 310--315
+Overfull \hbox (184.27895pt too wide) in paragraph at lines 321--326
 [][]\OT1/cmr/m/n/10.95 B. Hart.  Will 3d print-ing change the world?  |   [],
  []
 
-[39]
+[54]
 ! Undefined control sequence.
-l.406 \newblock Fr\š
+l.417 \newblock Fr\š
                     bel's forgotten gift: textile construction kits as pathw...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1235,52 +792,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[40] [41]
+[55] [56]
 Missing character: There is no Õ in font cmr10!
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.581 \newblock reprap.org/wiki/main_
-                                     page.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.583 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.583 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.583 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[42] [43]
+ [57] [58]
 ! Misplaced alignment tab character &.
 <argument> \@empty &
                     
-l.760 ...block {\em Psychonomic Bulletin & Review}
+l.776 ...block {\em Psychonomic Bulletin & Review}
                                                   , 9(4):625--636, 2002.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1289,55 +807,43 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) (./appendixA.tex [44]
+) (./appendixA.tex [59]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle A.
 centered
-[45
+[60
 
-]) (./appendixB.tex [46]
+]) (./appendixB.tex [61]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle B.
 centered
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
- [47
+) [62
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 88219F79C2B001F9369EE5A96DB0CFA8;1388.
+] (./document.aux)
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 8050 strings out of 493633
- 121468 string characters out of 3143378
- 238656 words of memory out of 3000000
- 10945 multiletter control sequences out of 15000+200000
- 13667 words of font info for 52 fonts, out of 3000000 for 9000
+ 4435 strings out of 493633
+ 66603 string characters out of 3143378
+ 145254 words of memory out of 3000000
+ 7590 multiletter control sequences out of 15000+200000
+ 15029 words of font info for 58 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 44i,13n,42p,656b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{\\par\040} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (57 pages, 12798616 bytes).
+ 44i,13n,42p,669b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on document.pdf (73 pages, 17821438 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
- 644 compressed objects within 7 object streams
- 246 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

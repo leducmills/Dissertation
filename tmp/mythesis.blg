@@ -1,0 +1,98 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mythesis.aux
+The style file: plain.bst
+Database file #1: refs.bib
+Repeated entry---line 1302 of file refs.bib
+ : @inproceedings{Leduc-Mills:2011:UCD:1999030.1999039
+ :                                                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "lao:thesis"
+Warning--I didn't find a database entry for "lao:paper"
+Warning--I didn't find a database entry for "mulick"
+Warning--I didn't find a database entry for "baylor"
+Warning--to sort, need author or key in economist
+Warning--to sort, need author or key in makerbot
+Warning--to sort, need author or key in thingiverse
+Warning--to sort, need author or key in stratasys
+Warning--to sort, need author or key in ponoko
+Warning--to sort, need author or key in tinkercad
+Warning--to sort, need author or key in 123Dcatch
+Name 1 in "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." has a comma at the end for entry goldin
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." for entry goldin
+while executing---line 1049 of file plain.bst
+Name 1 in "Inhelder, Barbel, and Jean Piaget" has a comma at the end for entry Piaget
+while executing---line 1049 of file plain.bst
+Warning--empty author in economist
+Warning--empty author in 123Dcatch
+Warning--empty author in makerbot
+Warning--empty author in ponoko
+Warning--empty author in stratasys
+Warning--empty author in thingiverse
+Warning--empty author in tinkercad
+Warning--empty booktitle in Ananthanarayan
+Warning--can't use both volume and number fields in eisenberg2011educational
+Warning--empty booktitle in Fabathome
+Warning--empty booktitle in DesktopFactory
+Name 1 in "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." has a comma at the end for entry goldin
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." for entry goldin
+while executing---line 1090 of file plain.bst
+Warning--empty booktitle in goldin
+Warning--empty journal in mechmoves
+Name 1 in "Inhelder, Barbel, and Jean Piaget" has a comma at the end for entry Piaget
+while executing---line 1090 of file plain.bst
+Warning--empty booktitle in Instructables
+Warning--empty year in Instructables
+Warning--empty journal in Kawahara2013a
+Warning--empty booktitle in ArduinoMega
+Warning--empty booktitle in Processing
+Warning--empty booktitle in RepRap
+Warning--empty booktitle in Rhino
+Warning--empty booktitle in Shapeways
+Warning--empty journal in siemankowski1971spatial
+Warning--empty booktitle in SketchUp
+Warning--empty booktitle in Solidworks
+You've used 127 entries,
+            2118 wiz_defined-function locations,
+            1226 strings with 26913 characters,
+and the built_in function-call counts, 48257 in all, are:
+= -- 5057
+> -- 1861
+< -- 71
++ -- 755
+- -- 612
+* -- 2996
+:= -- 7396
+add.period$ -- 439
+call.type$ -- 127
+change.case$ -- 670
+chr.to.int$ -- 0
+cite$ -- 158
+duplicate$ -- 2222
+empty$ -- 3922
+format.name$ -- 612
+if$ -- 10805
+int.to.chr$ -- 0
+int.to.str$ -- 127
+missing$ -- 140
+newline$ -- 631
+num.names$ -- 240
+pop$ -- 824
+preamble$ -- 1
+purify$ -- 560
+quote$ -- 0
+skip$ -- 1685
+stack$ -- 0
+substring$ -- 2930
+swap$ -- 736
+text.length$ -- 71
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 478
+warning$ -- 31
+while$ -- 459
+width$ -- 130
+write$ -- 1511
+(There were 7 error messages)

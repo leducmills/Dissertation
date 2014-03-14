@@ -4,21 +4,26 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{Hardware}{section.2.1}% 4
 \BOOKMARK [2][-]{subsection.2.1.2}{Limitations}{section.2.1}% 5
 \BOOKMARK [1][-]{section.2.2}{SnapCAD}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.3}{PopCAD}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.4}{Software}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{Related Work}{}% 9
-\BOOKMARK [0][-]{chapter.4}{Technical Implementation}{}% 10
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 11
-\BOOKMARK [1][-]{section.5.1}{UCube Pilot}{chapter.5}% 12
-\BOOKMARK [2][-]{subsection.5.1.1}{Procedure}{section.5.1}% 13
-\BOOKMARK [2][-]{subsection.5.1.2}{Results and Discussion}{section.5.1}% 14
-\BOOKMARK [1][-]{section.5.2}{Further UCube Study}{chapter.5}% 15
-\BOOKMARK [2][-]{subsection.5.2.1}{Procedure: Modeling}{section.5.2}% 16
-\BOOKMARK [2][-]{subsection.5.2.2}{Procedure: Matching}{section.5.2}% 17
-\BOOKMARK [2][-]{subsection.5.2.3}{Results}{section.5.2}% 18
-\BOOKMARK [1][-]{section.5.3}{SnapCAD and PopCAD}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Vision}{}% 20
-\BOOKMARK [0][-]{chapter.7}{Future Work}{}% 21
-\BOOKMARK [-1][-]{chapter*.20}{ Bibliography}{}% 22
-\BOOKMARK [0][-]{appendix.A}{Weird Exam Answers}{chapter*.20}% 23
-\BOOKMARK [0][-]{appendix.B}{Ode to Spot}{chapter*.20}% 24
+\BOOKMARK [2][-]{subsection.2.2.1}{A Sample \(Red/Green Player\) Strategy Game for SnapCAD}{section.2.2}% 7
+\BOOKMARK [1][-]{section.2.3}{PopCAD}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{PopCAD v1}{section.2.3}% 9
+\BOOKMARK [2][-]{subsection.2.3.2}{PopCAD v2}{section.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.3.3}{Discussion}{section.2.3}% 11
+\BOOKMARK [1][-]{section.2.4}{Software}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.4.1}{Modeling Modes}{section.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.4.2}{Other Software Functionality}{section.2.4}% 14
+\BOOKMARK [0][-]{chapter.3}{Related Work}{}% 15
+\BOOKMARK [0][-]{chapter.4}{Evaluation}{}% 16
+\BOOKMARK [1][-]{section.4.1}{UCube Pilot}{chapter.4}% 17
+\BOOKMARK [2][-]{subsection.4.1.1}{Procedure}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.2}{Results and Discussion}{section.4.1}% 19
+\BOOKMARK [1][-]{section.4.2}{Further UCube Study}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Procedure: Modeling}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Procedure: Matching}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.3}{Results}{section.4.2}% 23
+\BOOKMARK [1][-]{section.4.3}{SnapCAD and PopCAD}{chapter.4}% 24
+\BOOKMARK [0][-]{chapter.5}{Vision}{}% 25
+\BOOKMARK [0][-]{chapter.6}{Future Work}{}% 26
+\BOOKMARK [-1][-]{chapter*.26}{ Bibliography}{}% 27
+\BOOKMARK [0][-]{appendix.A}{Weird Exam Answers}{chapter*.26}% 28
+\BOOKMARK [0][-]{appendix.B}{Ode to Spot}{chapter*.26}% 29

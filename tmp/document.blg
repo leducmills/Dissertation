@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: document.aux
 The style file: plain.bst
 Database file #1: refs.bib
-Repeated entry---line 1295 of file refs.bib
+Repeated entry---line 1324 of file refs.bib
  : @inproceedings{Leduc-Mills:2011:UCD:1999030.1999039
  :                                                    ,
 I'm skipping whatever remains of this entry
@@ -50,45 +50,45 @@ Warning--empty booktitle in Shapeways
 Warning--empty journal in siemankowski1971spatial
 Warning--empty booktitle in SketchUp
 Warning--empty booktitle in Solidworks
-You've used 126 entries,
+You've used 129 entries,
             2118 wiz_defined-function locations,
-            1218 strings with 26776 characters,
-and the built_in function-call counts, 48042 in all, are:
-= -- 5038
-> -- 1854
+            1234 strings with 27188 characters,
+and the built_in function-call counts, 48920 in all, are:
+= -- 5121
+> -- 1897
 < -- 71
-+ -- 752
-- -- 610
-* -- 2988
-:= -- 7358
-add.period$ -- 436
-call.type$ -- 126
-change.case$ -- 667
++ -- 770
+- -- 624
+* -- 3050
+:= -- 7511
+add.period$ -- 445
+call.type$ -- 129
+change.case$ -- 682
 chr.to.int$ -- 0
-cite$ -- 157
-duplicate$ -- 2210
-empty$ -- 3900
-format.name$ -- 610
-if$ -- 10759
+cite$ -- 160
+duplicate$ -- 2244
+empty$ -- 3970
+format.name$ -- 624
+if$ -- 10937
 int.to.chr$ -- 0
-int.to.str$ -- 126
-missing$ -- 138
-newline$ -- 626
-num.names$ -- 238
-pop$ -- 816
+int.to.str$ -- 129
+missing$ -- 142
+newline$ -- 641
+num.names$ -- 244
+pop$ -- 832
 preamble$ -- 1
-purify$ -- 557
+purify$ -- 570
 quote$ -- 0
-skip$ -- 1679
+skip$ -- 1700
 stack$ -- 0
-substring$ -- 2925
-swap$ -- 735
+substring$ -- 2969
+swap$ -- 738
 text.length$ -- 71
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 476
+type$ -- 486
 warning$ -- 31
-while$ -- 457
-width$ -- 129
-write$ -- 1501
+while$ -- 466
+width$ -- 132
+write$ -- 1533
 (There were 7 error messages)

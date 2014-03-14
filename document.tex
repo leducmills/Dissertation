@@ -7,13 +7,14 @@
 \usepackage{graphics}
 \usepackage{colortbl}
 \usepackage{color}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{subfig}
 \usepackage{amsmath}
 
 %%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
 
-\title{Devices for Embodied Fabrication}
+%\title{Devices for Embodied Fabrication}
+\title{Embodied Fabrication:\\ Body-Centric Devices for Novice Designers}
 
 \author{Benjamin A.}{Leduc-Mills}
 
@@ -30,63 +31,97 @@
 \advisor{Prof.}				%  #1 {title}
 	{Michael Eisenberg}			%  #2 {name}
 
-\reader{Prof.~Clayton Lewis}		%  2nd person to sign thesis
-\readerThree{Prof.~Tom Yeh}		%  3rd person to sign thesis
+\reader{Clayton Lewis}		%  2nd person to sign thesis
+\readerThree{Tom Yeh}		%  3rd person to sign thesis
 
 \abstract{  \OnePageChapter	% because it is very short
-
-Digital fabrication technologies are increasingly finding their way into
-educational spaces of all shapes and sizes. These new technologies 
-(3D printers, laser cutters, etc.) afford opportunities for exploring these new
-ways of `making' and how they may change the way we learn, explore, and play.
-Although there is much excitement surrounding the `maker movement' - and 3D
-printing in particular - there has been little examination of how to introduce
-a younger audience to 3D printing in an empowering way.
-This proposal argues that tangible interfaces - as opposed to 2D screen-based
-media - can be designed not only to support spatial reasoning and mathematical
-intuitions in children by engaging them in exploratory modeling and play, but
-that these interfaces can act as a democratizing force by enabling children to
-create physical objects with digital fabrication devices.
-The proposed work presents a series of novel tangible input devices for
-enhancing mathematical and spatial reasoning in kids with a focus on generating
-output for 3D printing.
-We discuss related work, the status of the proposed work, additional
-improvements to be made, a timeline for completion,
-and a discussion of risks, limitations, and outcomes inherent in the proposal.
+We present a class of devices under the umbrella moniker of ``embodied
+fabrication''. These devices and the development of the term ``embodied
+fabrication'' is rooted not only in computer science, but also in cognitive
+science, children's educational theory, digital fabrication technology, and the
+convergence of these strands present in the do-it-yourself community known as
+the``maker movement''. As such, we operate under a certain set of premises that
+guide and direct this work. First, that embodied cognition - which places the
+body at the center of our cognitive operations - provides a framework in which
+to ground our decisions to design physical peripheral devices as opposed to
+purely screen-based software. Second, that a strong line of research supports
+providing children with tangible, ``manipulative'' objects to learn with. Third,
+that digital fabrication technologies - 3D printing in particular - provide a
+wonderful new opportunity for children and novice designers in general to make,
+play, and explore creatively - and that the current design options for 3D
+printers are not suited to meaningful design and creation of objects by
+non-expert 3D modelers. Finally, that by continuing in the best traditions of
+body-centric interaction design for children, a suite of devices can be created
+to provide an educationally and technically rich environment to connect kids to
+the creative potential of 3D printing. We unpack these ideas more in the
+introduction, followed by a discussion of all three of the prototype devices and
+the companion software, a chapter on related work, a chapter discussing the
+three user studies we performed evaluating these devices, and finally we present
+a vision of the future of this work and of embodied fabrication devices as a
+whole.
 	}
 
 \dedication[Dedication]{	% NEVER use \OnePageChapter here.
-	To all of the fluffy kitties.
+	To all the killas and the hundred dolla billas.
 	}
 
-\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
-	Here's where you acknowledge folks who helped.
-	But keep it short, i.e., no more than one page,
-	as required by the Grad School Specifications.
-	}
+\acknowledgements{ \OnePageChapter % *MUST* BE ONLY ONE PAGE! 
+
+I was incredibly fortunate to have found the supporting cast that I had during
+my time at Colorado. My advisor, Michael Eisenberg, is one of the true gems of
+humanity. An unbelievable scholar, gifted writer, and a wonderfully supportive
+and warm person. Over our many hours of discussion he taught me how to love and
+appreciate the world where children's crafts, cognitive science, and
+computation come together. My father, for urging me to visit Mike as I was
+applying to grad school. You always let me know how proud you were.
+You and I are more similar than I ever would have imagined as a child. I see
+that as a wonderful thing. My mother, for her unwavering faith that I would be
+excellent. You were much better at convincing me than I was at convincing
+myself. Your visits were always a chance to recharge my batteries, feel loved,
+and be fed extremely well.
+Monika, for taking the risk of leaving your world behind to join me here in
+Colorado, and for supporting me so well during a very stressful time. You're the
+best cheerleader a guy could ask for. Many others contributed to this work,
+academically and socially. I owe an enormous debt of gratitude to Nathan Siedle,
+whose generosity allowed my work to reach its completion. My committee members
+were all amazing. Ann Eisenberg kept the lab from self-destruction more times
+than I can count. My CTG and CU compatriots for welcoming me to Colorado and
+convincing me to stay. Lindsay Levkoff Diamond, for being an incredibly
+understanding and flexible boss during my studies. The DOE and all my friends at
+SparkFun Electronics - Toni, Amanda, Dave, Brennen, Jordan, (etc.) without you,
+I don't know if I would have made it. And finally, Fran, Anna, Adrian, Victor,
+Galen, and the amazing kids at Gold Crown for their support.
+Thank you all.}
 
 % \IRBprotocol{E927F29.001X}	% optional!
 
-\ToCisShort	% use this only for 1-page Table of Contents
 
-\LoFisShort	% use this only for 1-page Table of Figures
+%\ToCisShort	% use this only for 1-page Table of Contents
+
+%\LoFisShort	% use this only for 1-page Table of Figures
 % \emptyLoF	% use this if there is no List of Figures
 
-\LoTisShort	% use this only for 1-page Table of Tables
+%\LoTisShort	% use this only for 1-page Table of Tables
 % \emptyLoT	% use this if there is no List of Tables
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
 \begin{document}
 
+% \tableofcontents
+% \listofigures
+% \listoftables
+
 \input{macros.tex}
+
 \input{1_introduction.tex}
 \input{2_prototypeSystems.tex}
 \input{3_RelatedWork.tex}
-\input{4_Technical_Implementation.tex}
-\input{5_Evaluation.tex}
+\input{4_Evaluation.tex}
 \input{5_vision.tex}
 \input{6_future_work.tex}
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
@@ -96,7 +131,6 @@ and a discussion of risks, limitations, and outcomes inherent in the proposal.
 
 %%%%%%%%%   then the Appendices, if any   %%%%%%%%%
 \appendix
-
 \input {appendixA.tex}
 \input {appendixB.tex}
 
