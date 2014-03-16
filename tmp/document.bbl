@@ -75,6 +75,16 @@ Alissa~N. Antle, Alyssa~F. Wise, and Kristine Nielsen.
   Interaction Design and Children}, IDC '11, pages 11--20, New York, NY, USA,
   2011. ACM.
 
+\bibitem{attneave1957physical}
+Fred Attneave.
+\newblock Physical determinants of the judged complexity of shapes.
+\newblock {\em Journal of Experimental Psychology}, 53(4):221, 1957.
+
+\bibitem{attneave1956quantitative}
+Fred Attneave and Malcolm~D Arnoult.
+\newblock The quantitative study of shape and pattern perception.
+\newblock {\em Psychological bulletin}, 53(6):452, 1956.
+
 \bibitem{bakker2012embodied}
 Saskia Bakker, Alissa~N Antle, and Elise Van Den~Hoven.
 \newblock Embodied metaphors in tangible interaction design.
@@ -256,6 +266,12 @@ Thomas Fischer and Wing Lau.
 \newblock Marble track music sequencers for children.
 \newblock In {\em Proceedings of the 2006 conference on Interaction design and
   children}, IDC '06, pages 141--144, New York, NY, USA, 2006. ACM.
+
+\bibitem{folk1987effects}
+Mark~D Folk and R~Duncan Luce.
+\newblock Effects of stimulus complexity on mental rotation rate of polygons.
+\newblock {\em Journal of Experimental Psychology: Human Perception and
+  Performance}, 13(3):395, 1987.
 
 \bibitem{Follmer:2012:KDR:2207676.2208403}
 Sean Follmer and Hiroshi Ishii.
@@ -520,6 +536,12 @@ David~A. Mellis, Sam Jacoby, Leah Buechley, Hannah Perner-Wilson, and Jie Qi.
   Embedded and Embodied Interaction}, TEI '13, pages 83--90, New York, NY, USA,
   2013. ACM.
 
+\bibitem{metzler1974transformational}
+Jacqueline Metzler and Roger~N Shepard.
+\newblock Transformational studies of the internal representation of
+  three-dimensional objects.
+\newblock 1974.
+
 \bibitem{mickelson2011math}
 Jason Mickelson and Wendy Ju.
 \newblock Math propulsion: engaging math learners through embodied performance
@@ -689,6 +711,18 @@ Shapeways.
 \newblock www.shapeways.com.
 \newblock 2011.
 
+\bibitem{shepard1971mental}
+RN~Shepard and Jacqueline Metzler.
+\newblock Mental rotation of three-dimensional objects.
+\newblock 1971.
+
+\bibitem{shepard1988mental}
+Shenna Shepard and Douglas Metzler.
+\newblock Mental rotation: Effects of dimensionality of objects and type of
+  task.
+\newblock {\em Journal of Experimental Psychology: Human Perception and
+  Performance}, 14(1):3, 1988.
+
 \bibitem{siemankowski1971spatial}
 Francis~T Siemankowski and Franklin~C MacKnight.
 \newblock Spatial cognition, a success prognosticator in college science
@@ -727,6 +761,12 @@ Cristina Sylla, Pedro Branco, S\'{e}rgio Gon\c{c}alves, Clara Coutinho, and
 \newblock In {\em Proceedings of the 11th International Conference on
   Interaction Design and Children - IDC '12}, page 323, New York, New York,
   USA, June 2012. ACM Press.
+
+\bibitem{vandenberg1978mental}
+Steven~G Vandenberg and Allan~R Kuse.
+\newblock Mental rotations, a group test of three-dimensional spatial
+  visualization.
+\newblock {\em Perceptual and motor skills}, 47(2):599--604, 1978.
 
 \bibitem{Wang:2011:TTP:1999030.1999045}
 Danli Wang, Cheng Zhang, and Hongan Wang.

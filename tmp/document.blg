@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: document.aux
 The style file: plain.bst
 Database file #1: refs.bib
-Repeated entry---line 1324 of file refs.bib
+Repeated entry---line 1392 of file refs.bib
  : @inproceedings{Leduc-Mills:2011:UCD:1999030.1999039
  :                                                    ,
 I'm skipping whatever remains of this entry
@@ -43,52 +43,54 @@ Warning--empty booktitle in Instructables
 Warning--empty year in Instructables
 Warning--empty journal in Kawahara2013a
 Warning--empty booktitle in ArduinoMega
+Warning--empty journal in metzler1974transformational
 Warning--empty booktitle in Processing
 Warning--empty booktitle in RepRap
 Warning--empty booktitle in Rhino
 Warning--empty booktitle in Shapeways
+Warning--empty journal in shepard1971mental
 Warning--empty journal in siemankowski1971spatial
 Warning--empty booktitle in SketchUp
 Warning--empty booktitle in Solidworks
-You've used 129 entries,
+You've used 136 entries,
             2118 wiz_defined-function locations,
-            1234 strings with 27188 characters,
-and the built_in function-call counts, 48920 in all, are:
-= -- 5121
-> -- 1897
+            1273 strings with 28238 characters,
+and the built_in function-call counts, 50815 in all, are:
+= -- 5303
+> -- 1982
 < -- 71
-+ -- 770
-- -- 624
-* -- 3050
-:= -- 7511
-add.period$ -- 445
-call.type$ -- 129
-change.case$ -- 682
++ -- 804
+- -- 650
+* -- 3178
+:= -- 7846
+add.period$ -- 466
+call.type$ -- 136
+change.case$ -- 716
 chr.to.int$ -- 0
-cite$ -- 160
-duplicate$ -- 2244
-empty$ -- 3970
-format.name$ -- 624
-if$ -- 10937
+cite$ -- 169
+duplicate$ -- 2319
+empty$ -- 4121
+format.name$ -- 650
+if$ -- 11320
 int.to.chr$ -- 0
-int.to.str$ -- 129
-missing$ -- 142
-newline$ -- 641
-num.names$ -- 244
-pop$ -- 832
+int.to.str$ -- 136
+missing$ -- 149
+newline$ -- 676
+num.names$ -- 258
+pop$ -- 860
 preamble$ -- 1
-purify$ -- 570
+purify$ -- 597
 quote$ -- 0
-skip$ -- 1700
+skip$ -- 1755
 stack$ -- 0
-substring$ -- 2969
-swap$ -- 738
+substring$ -- 3060
+swap$ -- 743
 text.length$ -- 71
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 486
-warning$ -- 31
-while$ -- 466
-width$ -- 132
-write$ -- 1533
+type$ -- 514
+warning$ -- 33
+while$ -- 486
+width$ -- 139
+write$ -- 1606
 (There were 7 error messages)

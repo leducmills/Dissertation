@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  14 MAR 2014 14:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  15 MAR 2014 19:42
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -236,9 +236,6 @@ LaTeX Info: Redefining \] on input line 2667.
 (./document.aux
 
 LaTeX Warning: Label `fig:kidcad' multiply defined.
-
-
-LaTeX Warning: Label `codingStrategy' multiply defined.
 
 
 LaTeX Warning: Label `codingStrategy' multiply defined.
@@ -750,25 +747,30 @@ Underfull \hbox (badness 1342) in paragraph at lines 537--540
 \OT1/cmr/m/n/10 straight line through the
  []
 
-[44] [45] [46]) (./5_vision.tex [47] [48]
+[44] [45] [46] [47]
+Overfull \hbox (42.9648pt too wide) in paragraph at lines 741--754
+ [][] 
+ []
+
+[48] [49] [50]) (./5_vision.tex [51]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
 centered
-) (./6_future_work.tex [49
+) (./6_future_work.tex [52
 
 ]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 6.
 centered
-) (./document.bbl [50
+) (./document.bbl [53
 
 ]
 centered
-[51
+[54
 
 ]
 Missing character: There is no Ñ in font cmr10!
- [52] [53]
+ [55] [56]
 ! Misplaced alignment tab character &.
-l.277 \newblock A. Lovell &
+l.293 \newblock A. Lovell &
                             Company, New York, 1886.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -778,13 +780,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (184.27895pt too wide) in paragraph at lines 321--326
+Overfull \hbox (184.27895pt too wide) in paragraph at lines 337--342
 [][]\OT1/cmr/m/n/10.95 B. Hart.  Will 3d print-ing change the world?  |   [],
  []
 
-[54]
+[57]
 ! Undefined control sequence.
-l.417 \newblock Fr\š
+l.433 \newblock Fr\š
                     bel's forgotten gift: textile construction kits as pathw...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -792,13 +794,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[55] [56]
+[58] [59]
 Missing character: There is no Õ in font cmr10!
- [57] [58]
+ [60] [61]
 ! Misplaced alignment tab character &.
 <argument> \@empty &
                     
-l.776 ...block {\em Psychonomic Bulletin & Review}
+l.816 ...block {\em Psychonomic Bulletin & Review}
                                                   , 9(4):625--636, 2002.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -807,15 +809,15 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) (./appendixA.tex [59]
+[62]) (./appendixA.tex [63]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle A.
 centered
-[60
+[64
 
-]) (./appendixB.tex [61]
+]) (./appendixB.tex [65]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle B.
 centered
-) [62
+) [66
 
 ] (./document.aux)
 
@@ -826,10 +828,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4435 strings out of 493633
- 66603 string characters out of 3143378
- 145254 words of memory out of 3000000
- 7590 multiletter control sequences out of 15000+200000
+ 4446 strings out of 493633
+ 66813 string characters out of 3143378
+ 156974 words of memory out of 3000000
+ 7601 multiletter control sequences out of 15000+200000
  15029 words of font info for 58 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  44i,13n,42p,669b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -840,10 +842,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
 local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
 al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on document.pdf (73 pages, 17821438 bytes).
+Output written on document.pdf (77 pages, 17835994 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
+ 325 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
