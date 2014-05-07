@@ -5,9 +5,9 @@ Over the past several years we have been working on the creation of a family of
 child-friendly tangible user interfaces that would serve as input devices for
 exploring 3D modeling and digital fabrication in an ``embodied'' fashion. As
 discussed in the first chapter, the motivations behind this work are
-thematically diverse, but can be distilled into an attempt to create a more
+thematically diverse, but can be distilled as an attempt to create a more
 intuitive, body-centric way for novices to design for 3D printing while also
-strengthening the user's sense of spatial translation from 3D to 2D (screen
+strengthening a sense of spatial translation between 3D and 2D (screen
 based) representations. To this end, we have created three prototypes:
 the UCube, an initial proof-of-concept device using simple components, SnapCAD,
 a more expressive and capable iteration of the UCube relying on magnetized LED
@@ -36,6 +36,10 @@ on a device into a software program that could display the actions performed on
 the geoboard in a ``meaningful'' way - that is, in a way that could potentially
 extend spatial reasoning abilities between the 3D representations created on
 the device and the 2D, screen-based images displayed on the computer screen.
+Credit for early work on this idea is due in part to Julie DiBiase, Yingdan
+Huang, and Kate Starbird, who outlined the idea of computationally-enhanced
+mathematics manipulatives, including the geoboard, in an earlier work from our
+lab\cite{eisenberg1996mathematical}\cite{starbird3dgeoboard}.
 
 \begin{figure}[ht]
 \begin{center}$
@@ -48,20 +52,20 @@ pegs, forming a triangle.}
 \label{fig:geoboard}
 \end{figure}
 
-The UCube (as seen on the left in \ref{fig:ucube1}) is the initial result of
-this goal. The physical interface consists of a set of vertical ``towers'' that
-are placed (and optionally re-placed) onto a grid of 4x4 evenly spaced nodes or
-sockets, which act somewhat like the nails in the 2D geoboard. The towers
-themselves contain four switches placed vertically along the tower, creating a
-potential for 64 (4x4x4) distinct points to be activated. The towers are
-``plugged in'' when placed into one of the 16 socket nodes, connecting them to
-the underlying circuitry responsible for providing power to the towers and
-relaying the state of each of the switches to the computer, via an Arduino
-Mega\cite{ArduinoMega} microcontroller. Thus, when a tower is placed in a
-specific node on the board and a switch is flipped on, a particular (x,y,z)
-coordinate in three-dimensional space is activated and sent to a piece of
-software on the computer. An abstracted illustration of the hardware system is
-seen on the right in \ref{fig:ucube1_schematic}.
+The UCube (as seen in \ref{fig:ucube1}) is the initial result of this goal. The
+physical interface consists of a set of vertical ``towers'' that are placed (and
+optionally re-placed) onto a grid of 4x4 evenly spaced nodes or sockets, which
+act somewhat like the nails in the 2D geoboard. The towers themselves contain
+four switches placed vertically along the tower, creating a potential for 64
+(4x4x4) distinct points to be activated. The towers are ``plugged in'' when
+placed into one of the 16 socket nodes, connecting them to the underlying
+circuitry responsible for providing power to the towers and relaying the state
+of each of the switches to the computer, via an Arduino Mega\cite{ArduinoMega}
+microcontroller. Thus, when a tower is placed in a specific node on the board
+and a switch is flipped on, a particular (x,y,z) coordinate in three-dimensional
+space is activated and sent to a piece of software on the computer. An
+abstracted illustration of the hardware system is seen on the right in
+\ref{fig:ucube1_schematic}.
 
 \begin{figure}[!ht]
 \begin{center}$
@@ -79,29 +83,28 @@ switch lit.}
 
 Figure \ref{fig:ucube1} shows two views of the UCube interface. The picture on
 the left shows the device, with four towers placed in an evenly spaced square,
-with one ``board unit'' separating each tower. The lowest and third-lowest
+with two ``board units'' separating each tower. The lowest and third-lowest
 switches on each tower are lit, marking eight active points. Thus we have eight
-active points, spaced evenly in such a way to describe a cube of 2
+active points, spaced evenly in such a way to describe a cube of two
 ``board-units'' in length if we were to take the convex hull of those points.
 The photo on the right gives a detailed view of the UCube hardware. A tower has
 been plugged into the board and its bottom-most switch turned to the ``on''
-position. 
+position, indicted by the glow of the LED behind the switch. 
 
-
-The UCube software (discussed more thoroughly later in the chapter)
-takes the incoming coordinate data from the microcontroller and translates it
-into a real-time visualization on screen. The graphical user interface centers
-around a ``ghosted'' grid of all the potential points, with the active points
-being highlighted. In the first version of the software, the interface also
-provides a set of operations that can be performed on the set of active points
-in addition to normal scene manipulations like zoom and rotate. These functions
-are explained more thoroughly in the software section later in the chapter, but
-to give a brief list, include: taking the convex hull of the point set (as
-imagined in \ref{fig:ucube1}), creating a sequential path or knot through the
-active points, exporting the convex hull or knot to .STL format for 3D printing,
-drawing a (non-printable) spline through the active points, saving and loading a
-shape, and editing the vertices of a convex hull via a click-and-drag interface.
-
+The UCube software (discussed more thoroughly later in the chapter) takes the
+incoming coordinate data from the microcontroller embedded in the device and
+translates that data into a real-time visualization on the computer screen. The
+graphical user interface centers around a ``ghosted'' grid of all the potential
+points, with the active points highlighted. The software interface provides a
+set of operations that can be performed on the set of active points in addition
+to normal scene manipulations like zoom and rotate. These functions are
+explained more thoroughly in the software section later in the chapter, but we
+give a brief list here so as to clarify our purposes: taking the convex hull of
+the point set (as imagined in \ref{fig:ucube1}), creating a sequential path or
+knot through the active points, exporting the convex hull or knot to .STL format
+for 3D printing, drawing a (non-printable) spline through the active points,
+saving and loading a shape, and editing the vertices of a convex hull via a
+click-and-drag interface.
 
 
 % from IDC 2011 paper
@@ -136,12 +139,12 @@ the socket into which they must be placed, and ensures that the towers
 themselves are resistant to being knocked over.
 
 The next layer down holds a set of headers, six per socket (one each for power
-and ground, and four input lines, one for each switch), which allow the towers
-to ``plug in'' and connect to the rest of the circuit. Wires from the headers go
-down to the bottom layer, which holds the breadboarded circuit and Arduino Mega
-microcontroller\cite{ArduinoMega}. The header wires connect directly to the
+and ground, and four input lines, one for each switch on the tower), which allow
+the towers to ``plug in'' and connect to the rest of the circuit. Wires from the
+headers go down to the bottom layer, which holds the breadboarded circuit and
+Arduino Mega microcontroller. The header wires connect directly to the
 breadboard, where each switch circuit runs through a 10K$\Omega$ resistor, and
-then to a digital input pin on the Arduino Mega. When plugged in, the Arduino is
+then to a digital input pin on the Arduino. When plugged in, the Arduino is
 able to communicate (via asynchronous serial communication) the set of active
 switches (and corresponding coordinates) to the computer through a USB cable.
 \ref{fig:ucube1_schematic} depicts a schematic diagram of the UCube hardware.
@@ -156,31 +159,32 @@ switches (and corresponding coordinates) to the computer through a USB cable.
 \label{fig:ucube1_schematic}
 \end{figure}
 
-The towers are made of transparent acrylic, cut from a 1'' diameter circular
-tube. The towers were laser-cut in order to house the four switches and
-corresponding circuitry elements. Four laser-cut rectangles are sized to allow
-the back of each switch to be placed inside the tower while the faceplate
-remains on the surface. The switched are backlit with in-built red LED's. Each
-switch has a 270$\Omega$ current limiting resistor soldered between two of its
-legs to protect the lighting element. Headers were soldered on to the power and
-ground pins of the switch, and connect to a strip of conductive tape affixed to
-the back on the inside of the tower (one can make this out somewhat in Figure
-\ref{fig:ucube1}). The signal line from the switch (responsible for letting the
-microcontroller know it has been switched) is soldered to a wire which reaches
-down a six-pin header at the base of the tower. As the switches are LED-backlit
-when active, it becomes more apparent which points are active as well as giving
-a more accessible ``gestalt'' of the shapes being modeled. The luminosity also
-allows for some potentially interesting applications in dimly-lit circumstances,
-such as modeling constellations in a classroom or planetarium: in these
-situations, the lights of the selected spatial points stand out especially
-vividly.
+The towers are roughly nine inches tall, made of transparent acrylic, cut from a
+circular tube with a 1'' interior diameter (1.5'' exterior). The towers were
+laser-cut in order to house the four switches and corresponding circuitry
+elements. Four rectangles are laser-cut along the face of each tower in such a
+way to allow the back of each switch to be placed inside the tower while the
+faceplate remains on the surface. The switches are back-lit (when switched on)
+with built-in red LED's. Each switch has a 270$\Omega$ current limiting resistor
+soldered between two of its legs to protect the lighting element. Headers were
+soldered on to the power and ground pins of the switch, which connect to a strip
+of silver conductive tape affixed to the back of the inside of the tower (one
+can make this out somewhat in Figure \ref{fig:ucube1}).
+The signal line from each switch (responsible for letting the microcontroller
+know the switch state, either on or off) is soldered to a wire which reaches
+down to a six-pin header at the base of the tower. As the switches are lit when
+active, it becomes apparent which points are on as well as giving a more
+accessible ``gestalt'' of the shapes being modeled. The luminosity also allows
+for some potentially interesting applications in dimly-lit circumstances, such
+as modeling constellations in a classroom or planetarium. In these situations,
+the lights of the selected spatial points stand out especially vividly.
 
 
 \subsection{A Sample UCube Scenario}
 As a sample scenario, imagine that we wish to create a triangular prism solid
 employing the UCube. We can begin this process by selecting three points to form
 a triangle; then, by placing two more towers and creating the same triangular
-shape "shifted over" by two units (as seen on the left of \ref{fig:cubev1}) we
+shape ``shifted over'' by two units (as seen on the left of \ref{fig:cubev1}) we
 create the entire prism. Naturally, there might be many alternative pathways to
 forming the same eventual shape: for example, we might begin by placing four (or
 more) towers in the platform, and then experiment or fiddle with the chosen
@@ -189,13 +193,12 @@ might begin without any towers in the device at all: by placing our hands or
 fingers above the device, roughly indicating where the prism should be, we might
 then use our imagined locations as ``guides'', helping us to place the necessary
 towers in the platform and select the correct lights for the vertices of the
-prism.
-In any event, having designed the prism using the UCube platform, and having
-checked that it looks like the correct shape on the computer screen (as seen in
-the center of \ref{fig:cubev1}), the final step is to export the shape into a
-format suitable for 3D printer output. The UCube software, as noted earlier,
-includes a feature for doing just this; and finally, we print out the prism, as
-shown on the right in \ref{fig:cubev1}.
+prism. In any event, having designed the prism using the UCube platform, and
+having checked that it looks like the correct shape on the computer screen (as
+seen in the center of \ref{fig:cubev1}), the final step is to export the shape
+into a format suitable for 3D printer output. The UCube software, as noted
+earlier, includes a feature for doing just this; and finally, we print out the
+prism, as shown on the right in \ref{fig:cubev1}.
 
 \begin{figure}[!ht]
 \begin{center}$
@@ -230,26 +233,25 @@ preclude us from attempting to make a more powerful, expressive, and stable
 interface to present to users.
 
 
-
 \section{SnapCAD}
 
-Based on the feedback and observations from the two user studies we performed
-with the UCube (discussed in chapter 4), a second, more powerful instantiation
-of the UCube has been created. Called SnapCAD (formerly known as UCube v2) this
-next generation device consists of a total input space of 7x7x7 points, forming
-343 distinct coordinates (as opposed to the 64 points of the UCube). We focused
-on two main design goals with the SnapCAD: greater expressive power and greater
-stability in the system operation.
+Based on the limitations of the UCube mentioned in the previous section, and
+observations from the two user studies we performed with the UCube (discussed in
+chapter 4), we designed a second, more powerful device named ``SnapCAD''.
+Formerly known as UCube v2, this next generation interface consists of a total
+input space of 7x7x7 points, forming 343 distinct coordinates (as opposed to the
+64 points of the UCube). We focused on two main design goals with the SnapCAD:
+greater expressive power and greater stability in the system operation.
 
 \subsection{Technical Implementation}
-To start with system stability, then; custom printed circuit boards have
-replaced loose wires, the towers are designed in Rhino\cite{Rhino} and 3D
-printed to safely and securely house the towers, which are in fact printed
-circuit boards of their own. Instead of a rickety housing, the top layer is
-1/2'' acrylic which was milled on a CNC machine to precisely fit the newly
-designed towers. The sides and bottom are hand-crafted wood, with channels cut
-to allow the top and circuit board layers to easily slide in and out. The frame
-is not glued on one side to allow for repair and maintenance. This side is
+To start with system stability, then; custom printed circuit boards replace
+loose wires, the towers are 11'' tall, designed in Rhino\cite{Rhino} and 3D
+printed in ABS plastic to safely and securely house the towers, which are in
+fact printed circuit boards of their own. Instead of a rickety housing, the top
+layer is 1/2'' acrylic which was milled on a CNC machine to precisely fit the
+newly designed towers. The sides and bottom are hand-crafted wood, with channels
+cut to allow the top and circuit board layers to easily slide in and out. The
+frame is not glued on one side to allow for repair and maintenance. This side is
 secured by custom metal brackets and screws. Each socket has its own printed
 circuit board, held firmly in place by zip ties around a latticed acrylic layer
 underneath the boards. The system has since traveled to the Denver Art Museum,
@@ -257,50 +259,51 @@ the Computer Clubhouse in Lakewood, Colorado, and ridden around in the back of
 several cars without mishap (not to mention roughly 20 hours of user testing by
 eager adolescents).
 
-\begin{figure}[!ht] 
-\begin{center}$
+\begin{figure}[!ht] \begin{center}$
 \begin{array}{cc}
-\includegraphics[width=.45\linewidth]{images/snap_schematic}
+\includegraphics[width=.45\linewidth]{images/BeatriceFinal-9}& 
+\includegraphics[width=.45\linewidth]{images/BeatriceFinal-14}
 \end{array}$
 \end{center}
-\caption{A schematic of the SnapCAD technical design, showing a sample tower
-(A), LED light element (B), shift register board (C) and Arduino (D). The Arduino
-microcontroller's role is to send coordinates (and colors) of the LED lights,
-once placed, to a desktop computer. A fuller description of this schematic is
-provided in the accompanying text.}
-\label{fig:snap0}
+\caption{
+Left: the SnapCAD interface, showing four towers with two red LEDs each,
+arranged in a cube-like configuration (as imagined earlier with the UCube).
+Right: a detail of the SnapCAD hardware - the PCB tower is housed in a
+3D-printed shell, which plugs into one of a chained set of shift-register
+boards. The LED boards snap on to the towers via conductive magnetic snaps.}
+\label{fig:snap1}
 \end{figure}
 
-The goal of expressiveness was met in two ways; by increasing the possible input
-space from 64 points to 343, and by designing a system that allowed for each
-point to be activated by more than one color of LED - effectively allowing for
-multiple shapes to be modeled at once, or multiple ``players" to interact with
-the board at once. Both of these solutions required changes in both hardware and
-software from the UCube. Working on the scale of multiple hundreds of inputs
-necessitated the design of custom circuit boards to relay information
-effectively to the microcontroller. The Arduino Mega has only 54 digital
-input/output pins, far too few to assign each line directly to an input, even if
-one wanted to deal with tracking 343 i/o lines (which we most certainly did
-not). Instead, we designed a circuit board around an input shift register chip
-from Texas Instruments - the CD4021BE - that could effectively provide eight
-more input lines per chip and operate with the Arduino's ATMega 328 Serial Peripheral
-Interface (SPI) protocol, which requires only three lines from the Arduino. By
-breaking out the pins on the CD4021BE so that they could be chained together (by
-aligning the serial output of one chip to the serial input of the next chip,
-while also passing along the latch and clock signals, the other two lines
-necessary for the SPI to work)\footnote{We understand this section is somewhat
-technical. A great introduction to using shift registers in this way can be
-found at: http://www.arduino.cc/en/Tutorial/ShiftIn}. By arranging 49 of these
-daisy-chained boards in a 7x7 grid, we had the framework to read in from 343
-inputs in real time. Only one more problem had to be solved: at around 35
-connected shift registers, we exceed what is called the ``fan-out'' of the
-Arduino microcontroller - the number of connected input gates that a given pin
-on the Arduino to drive a current load into. To get around this problem, the
-clock and latch signals are put through a set of two ``buffers'' - in our case
-CD4049BE inverting hex buffers - which can used for logic level conversion (the
-inverting part, which we do not need, hence the second inverting buffer), but
-also as a ``boost'' to drive the signal farther. One set of buffers was enough
-to get our signals to the computer reliably.
+The goal of greater expressiveness was met in two ways; by increasing the
+possible input space from 64 points to 343, and by designing a system that
+allowed for each point to be activated by more than one color of LED -
+effectively allowing for multiple shapes to be modeled at once, or multiple
+``players" to interact with the board at once. Both of these solutions required
+changes in hardware and software from the UCube. Working on the scale of
+multiple hundreds of inputs necessitated the design of custom circuit boards to
+relay information effectively to the microcontroller. The Arduino Mega has only
+54 digital input/output pins, far too few to assign each line directly to an
+input, even if one wanted to deal with tracking 343 i/o lines (which we most
+certainly did not). Instead, we designed a circuit board around an input shift
+register chip from Texas Instruments - the CD4021BE - that could effectively
+provide eight more input lines per chip and operate with the Arduino's ATMega
+328 Serial Peripheral Interface (SPI) protocol, which requires only three lines
+from the Arduino. By breaking out the pins on the CD4021BE so that they could be
+chained together (by aligning the serial output of one chip to the serial input
+of the next chip, while also passing along the latch and clock signals, the
+other two lines necessary for the SPI to work)\footnote{We understand this
+section is somewhat technical. A great introduction to using shift registers in
+this way can be found at: http://www.arduino.cc/en/Tutorial/ShiftIn}. By
+arranging 49 of these daisy-chained boards in a 7x7 grid, we had the framework
+to read in from 343 inputs in real time. Only one more problem had to be solved:
+at around 35 connected shift registers, we exceed what is called the ``fan-out''
+of the Arduino microcontroller - the number of connected input gates that a
+given pin on the Arduino to drive a current load into. To get around this
+problem, the clock and latch signals are put through a set of two ``buffers'' -
+in our case CD4049BE inverting hex buffers - which can used for logic level
+conversion (the inverting part, which we do not need, hence the second inverting
+buffer), but also as a ``boost'' to drive the signal farther. One set of buffers
+was enough to get our signals to the computer reliably.
 
 This change in scale also meant rewriting most of the modeling software to
 effectively handle the greater expressiveness of the physical system. The astute
@@ -321,19 +324,18 @@ problem of generating the proper coordinates from the input stream was then a
 matter of creating a ``lookup table'' where the $nth$ character in the input
 string array was the $nth$ element in an array of 3D coordinates.
 
-\begin{figure}[!ht] \begin{center}$
+\begin{figure}[!ht] 
+\begin{center}$
 \begin{array}{cc}
-\includegraphics[width=.45\linewidth]{images/BeatriceFinal-9}& 
-\includegraphics[width=.45\linewidth]{images/BeatriceFinal-14}
+\includegraphics[width=.45\linewidth]{images/snap_schematic}
 \end{array}$
 \end{center}
-\caption{
-Left: the SnapCAD interface, showing four towers with two red LEDs each,
-arranged in cube-like configuration. Right: a detail of the SnapCAD hardware -
-the PCB tower is housed in a 3D-printed shell, which plugs into one of a chained
-set of shift-register boards. The LED boards snap on to the towers via
-conductive magnetic snaps.}
-\label{fig:snap1}
+\caption{A schematic of the SnapCAD technical design, showing a sample tower
+(A), LED light element (B), shift register board (C) and Arduino (D). The Arduino
+microcontroller's role is to send coordinates (and colors) of the LED lights,
+once placed, to a desktop computer. A fuller description of this schematic is
+provided in the accompanying text.}
+\label{fig:snap0}
 \end{figure}
 
 The other enhancement to the expressive power of the SnapCAD design is the
@@ -390,8 +392,6 @@ total grid spaces. For example, to model a pyramid on on a 4x4x4 grid, one needs
 to construct a 3x3 subset of the 4x4 grid, using the middle point within the 3x3
 set as the top of the pyramid. This influenced our decision to create an
 odd-numbered layout, creating a more ``natural'' middle point in the hardware.
-
-
 
 
 \subsection{A Sample (Red/Green Player) Strategy Game for SnapCAD}
@@ -529,24 +529,26 @@ both open and closed states.}
 Each tower has a copper tape circuit consisting of three LEDs on the front face
 and three corresponding capacitive touch sensors on the left face. The copper
 tape acts as a paper-friendly conductive material to connect the electronic
-components together much like traditional wire. The LEDs are soldered onto the
-copper tape for greater stability. The capacitive sensors are simply a piece of
-copper tape which is connected to a pin on a microcontroller (in the first
-version, this is an Arduino Mega Pro). By bringing the internal pull-up resistor
-connected to the pin ``LOW'' (to ground) and then timing how long it takes to get
-back to a ``HIGH'' state we can tell if the connection is being influenced by a
-capacitive force. For example, if there is no interference on the circuit, the
-timer will normally only get to ``1'' before the resistor is back to a HIGH state;
-if a finger is placed on the copper tape, the reading will be
-much higher (typically around ``17''). Based on this change, we can detect which
-switch was touched and toggle the associated LED on or off. The hollow interior
-of each paper tower is used to solder thin 30-gauge wire to the three LEDs, the
-three switches, and ground. These seven wires are soldered to a row of headers
-that stick through the bottom of the first layer of the pop-up book. Wires are
-then run along the backside of the top layer of paper from these headers to the
-microcontroller. The entire circuit in then encased in a cloth-covered cardboard
-binder that acts as a book cover as well as a means to protect and hide the
-electronics.
+components together much like traditional wire, in the form of a flat
+copper-based adhesive tape. The LEDs are soldered onto the copper tape for
+greater stability.
+The capacitive sensors are simply a piece of copper tape which is connected to a
+pin on a microcontroller - in this first version, an Arduino Mega Pro.
+By bringing the internal pull-up resistor connected to the pin ``LOW'' (to
+ground) and then timing how long it takes to get back to a ``HIGH'' state we can
+tell if the connection is being influenced by a capacitive force. For example,
+if there is no interference on the circuit, the timer will normally only get to
+1 before the resistor is back to a HIGH state; if a finger is placed on the
+copper tape, the reading will be much higher (typically around 17). Based on
+this change, we can detect which switch was touched and toggle the associated
+LED on or off.
+The hollow interior of each paper tower is used to solder thin 30-gauge wire to
+the copper tape circuit of three LEDs, three switches, and ground. These seven
+wires are then soldered to a row of headers that stick through the bottom of the
+first layer of the pop-up book. Wires are then run along the backside of the top
+layer of paper from these headers to the microcontroller. The entire circuit in
+then encased in a cloth-covered cardboard binder that acts as a book cover as
+well as a means to protect and hide the electronics.
 
 \begin{figure}[!ht] \begin{center}$
 \begin{array}{cc}
@@ -556,7 +558,9 @@ electronics.
 \end{center}
 \caption{The two PopCAD designs side-by-side: PopCAD v1 (left) uses copper tape
 and 30 gauge wire for the paper circuit, while PopCAD v2 (right) uses
-fabric-based conductive tape without needing any wires.}
+fabric-based conductive tape without needing any wires. PopCAD v2 also removes
+the need for large rectangles to be cut out of the paper tower for the
+paper strut mechanisms.}
 \label{fig:popup_schematic1}
 \end{figure}
 
@@ -622,17 +626,18 @@ removing the excess material.}
 \end{figure}
 
 In the first prototype, we still used traditional jumper wires from the Arduino
-to connect to the headers beneath the towers, and 30 gauge (still traditional)
-wire inside of the towers to connect from the headers to the LEDs and copper
-tape. Admittedly, this does not feel very ``book-like'', or in the spirit of
-faithfully exploring paper-based electronics. PopCAD v2 has no traditional
-``wires'' at all. Instead, we use a fabric-based conductive tape, which, besides
-laying flush (unlike wires) and feeling more like paper than copper tape, the
-fabric tape is (unlike copper tape) able to be used in the laser cutter in our
-lab. Figure \ref{fig:popcadCirc} shows two views of the PopCAD v2 circuit,
-constructed by placing strips of the conductive tape on watercolor paper, laser
-etching a circuit diagram through the tape (but not through the paper), and
-peeling away the excess. This technique allows us to create a precise yet
+to connect to the headers beneath the towers, and 30 gauge wire (still
+traditional) inside of the towers to connect from the headers to the LEDs and
+copper tape. Admittedly, this does not feel very ``book-'' or ``paper-'' like,
+or in the spirit of faithfully exploring paper-based electronics. PopCAD v2 has
+no traditional ``wires'' at all. Instead, we use a fabric-based conductive tape,
+which, besides laying flush (unlike wires) and feeling more like paper than
+copper tape, the fabric tape is (unlike copper tape) able to be used in the
+laser cutter in our lab. Figure \ref{fig:popcadCirc} shows two views of the
+PopCAD v2 circuit, constructed by placing strips of the conductive tape on
+watercolor paper, using a laser cutter to etch a circuit diagram through the
+tape (but not through the paper), and peeling away the excess tape, leaving the
+desired traces of tape. This technique allows us to create a precise yet
 completely flat circuit layout. The accuracy of this method permits the Arduino
 Pro Mega (a thinner version of the regular Arduino Mega) to be affixed directly
 onto the paper. The towers use this conductive fabric for the capacitive touch
@@ -652,8 +657,8 @@ of various technical features; for the PopCAD it seems more appropriate to
 instead paint a more general user scenario that speaks to the intent behind
 PopCAD's design. Imagine an art teacher, girl scout troop leader, hackerspace or
 FabLab member, or any number of educators either wondering how to get into this
-``3D printing thing'' or who have a Makerbot sitting in a corner gathering dust.
-They find plans online (perhaps on Instructables\cite{Instructables} or some
+``3D printing thing'' or who have a MakerBot sitting in a corner gathering dust.
+They find plans on-line (perhaps on Instructables\cite{Instructables} or some
 similar DIY-oriented forum) for a relatively cheap, portable device that they
 could not only turn into a group project to build with their kids, but once
 built would offer a new way to introduce children to 3D modeling and 3D printing
@@ -707,18 +712,20 @@ devices.
 % specifying a three-dimensional object, and not to add functionality beyond what
 % is necessary or helpful to that end.
 
-The software for the aforementioned devices utilizes the Processing Serial
-library to read in the active coordinates from an Arduino microcontroller; it
-then displays those coordinates on-screen as larger points against a ``ghosted''
-grid of grey dots. The exact methods used to achieve this varied by device, and
-were detailed in the device-specific sections above. This on-screen model can be
-manipulated in a number of ways. Clicking and dragging along any axis rotates
-the model, as does the use of the arrow keys on the keyboard.  Holding the shift
-key while performing either action moves the entire model around the screen
-(essentially re-centering it). The ``control'' key plus an up or down arrow key
-zooms in or out along the z-axis. In addition to camera movements, there are a
-limited number of functions represented by a simple graphical user interface
-which aid and expand the modeling capabilities of the connected device.
+The software for the aforementioned devices utilizes the serial communication
+library for the Processing\cite{Processing} programming language (essentially a
+sub-set of Java) to read in the active coordinates from an Arduino
+microcontroller; it then displays those coordinates on-screen as larger points
+against a ``ghosted'' grid of grey dots. The exact methods used to achieve this
+varied by device, and were detailed in the device-specific sections above. This
+on-screen model can be manipulated in a number of ways. Clicking and dragging
+along any axis rotates the model, as does the use of the arrow keys on the
+keyboard.  Holding the shift key while performing either action moves the entire
+model around the screen (essentially re-centering it). The ``control'' key plus
+an up or down arrow key zooms in or out along the z-axis. In addition to camera
+movements, there are a limited number of functions represented by a simple
+graphical user interface which aid and expand the modeling capabilities of the
+connected device.
 
 For a brief overview of these functions, then: there are three ways of
 interpreting the active set of points on the connected device: by taking the
@@ -781,9 +788,9 @@ sophisticated software modeling program - there are plenty of good ones
 available already. Instead, the software is meant to aid the user in clarifying
 their physical actions with the physical device, while maintaining a low barrier
 to entry, a great possibility of expressiveness, and multiple ways of
-approaching any given exercise - a trifecta of design heuristics often referred
-to by Resnick (and others) as low floors, high ceilings, and wide
-walls\cite{Resnick}.
+approaching any given exercise - a trio of design heuristics often referred to
+by Resnick (and others) as low floors (accessibility), high ceilings
+(expressiveness), and wide walls (multiple paths)\cite{Resnick}.
 
 \subsection{Modeling Modes} 
 
@@ -812,7 +819,7 @@ Introduction}\cite{preparatat1985computational}.
 
 The version implemented in our program is a derivative of the work presented in
 \cite{barber1996quickhull}, and adapted from the implementation at \cite{quickhull3d}
-which combines a 2D Quickhull Algorithm with a general dimension Beneath-Beyond
+which combines a 2D QuickHull Algorithm with a general dimension Beneath-Beyond
 Algorithm to achieve a general dimension convex hull solution. In brief, the
 strategy works as follows: (a) from a given set of input points, where the
 coordinates are known, create an initial 3-simplex (tetrahedron) - from the
@@ -952,8 +959,8 @@ left of Figure \ref{fig:soma} below.
  
 \begin{figure}[ht] \begin{center}$
 \begin{array}{cc}
-\includegraphics[width=.46\linewidth]{images/somaCube} &
-\includegraphics[width=.46\linewidth]{images/somaPieces}
+\includegraphics[width=.45\linewidth]{images/somaCube} &
+\includegraphics[width=.45\linewidth]{images/somaPieces}
 \end{array}$
 \end{center}
 \caption{A set of non-convex polyhedral forms modeled on the UCube, which
@@ -1130,7 +1137,7 @@ of triangles in an .STL file the describes the object.
 \includegraphics[width=.5\linewidth]{images/userShapes1}
 \end{center}
 \caption{Several of the shapes modeled on the PopCAD and SnapCAD devices by
-novices designers (most of them without any previous 3D modeling expertise)
+novice designers (most of them without any previous 3D modeling expertise)
 from one of the user studies we performed.}
 \label{fig:userShapes1}
 \end{figure}
@@ -1139,9 +1146,8 @@ Creating a ``novice-proof'' stereolithography export (all of the above
 computation happens with one click, even the file naming) is crucial to the
 raison d'\^{e}tre of our work - to democratize the process of designing
 meaningful, personalized objects for 3D printing by novice designers. See Figure
-\ref{fig:userShapes1} for a taste of what these novice designers are capable of
-(more discussion of this occurs in later chapters, but a glimpse is far too
-tempting to omit here).
+\ref{fig:userShapes1} for a glimpse of what these novice designers are capable
+of (more to come in later chapters).
 
 
 

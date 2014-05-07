@@ -3,19 +3,22 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: document.aux
 The style file: plain.bst
 Database file #1: refs.bib
-Repeated entry---line 1464 of file refs.bib
+Repeated entry---line 1533 of file refs.bib
  : @inproceedings{Leduc-Mills:2011:UCD:1999030.1999039
  :                                                    ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in economist
+Warning--to sort, need author or key in thingiverse
 Name 1 in "Inhelder, Barbel, and Jean Piaget" has a comma at the end for entry Piaget
 while executing---line 1049 of file plain.bst
 Name 1 in "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." has a comma at the end for entry goldin
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Goldin-Meadow, S., H. Nusbaum, S. D. Delly, and S. Wagner." for entry goldin
 while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in CodeBender
+Warning--to sort, need author or key in EyeWriter
+Warning--to sort, need author or key in OpenPCR
 Warning--to sort, need author or key in makerbot
-Warning--to sort, need author or key in thingiverse
 Warning--to sort, need author or key in stratasys
 Warning--to sort, need author or key in ponoko
 Warning--to sort, need author or key in tinkercad
@@ -27,6 +30,9 @@ Warning--empty author in ponoko
 Warning--empty author in stratasys
 Warning--empty author in thingiverse
 Warning--empty author in tinkercad
+Warning--empty author in CodeBender
+Warning--empty author in EyeWriter
+Warning--empty author in OpenPCR
 Warning--empty booktitle in Ananthanarayan
 Warning--empty journal in boruuvka1926jistem
 Warning--can't use both volume and number fields in eisenberg2011educational
@@ -56,45 +62,47 @@ Warning--empty journal in shepard1971mental
 Warning--empty journal in siemankowski1971spatial
 Warning--empty booktitle in SketchUp
 Warning--empty booktitle in Solidworks
-You've used 144 entries,
+Warning--empty journal in starbird3dgeoboard
+Warning--empty year in starbird3dgeoboard
+You've used 153 entries,
             2118 wiz_defined-function locations,
-            1312 strings with 29537 characters,
-and the built_in function-call counts, 53015 in all, are:
-= -- 5515
-> -- 2088
-< -- 71
-+ -- 847
-- -- 684
-* -- 3329
-:= -- 8236
-add.period$ -- 489
-call.type$ -- 144
-change.case$ -- 757
+            1355 strings with 30616 characters,
+and the built_in function-call counts, 55435 in all, are:
+= -- 5765
+> -- 2156
+< -- 73
++ -- 878
+- -- 704
+* -- 3476
+:= -- 8609
+add.period$ -- 514
+call.type$ -- 153
+change.case$ -- 794
 chr.to.int$ -- 0
-cite$ -- 181
-duplicate$ -- 2403
-empty$ -- 4287
-format.name$ -- 684
-if$ -- 11756
+cite$ -- 198
+duplicate$ -- 2519
+empty$ -- 4504
+format.name$ -- 704
+if$ -- 12282
 int.to.chr$ -- 0
-int.to.str$ -- 144
-missing$ -- 157
-newline$ -- 715
-num.names$ -- 274
-pop$ -- 901
+int.to.str$ -- 153
+missing$ -- 166
+newline$ -- 756
+num.names$ -- 286
+pop$ -- 947
 preamble$ -- 1
-purify$ -- 630
+purify$ -- 658
 quote$ -- 0
-skip$ -- 1812
+skip$ -- 1895
 stack$ -- 0
-substring$ -- 3167
-swap$ -- 748
-text.length$ -- 71
+substring$ -- 3311
+swap$ -- 774
+text.length$ -- 73
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 546
-warning$ -- 37
-while$ -- 509
-width$ -- 147
-write$ -- 1685
+type$ -- 582
+warning$ -- 45
+while$ -- 531
+width$ -- 156
+write$ -- 1772
 (There were 7 error messages)

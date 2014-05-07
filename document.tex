@@ -1,3 +1,99 @@
+% Paulo
+% - Great work overall
+% - Why did you display the statistics the way you did?
+%      - Perhaps add error bars to the graphs
+% - Add transcriptions from the interactions and describe them in detail
+%      - Perhaps send link to video
+%      - (Mike) Put it into an Appendix so you don't break the flow of the presentation of the dissertation
+% - Tools make a big difference, imagine child programming without Logo or Scratch
+%      - But that's not really the focus of the paper
+%      - Add a focus on the design of tools
+% - Don't stop working in this area
+% 
+% 
+% Kylie
+% - Dissertation does 2 things
+%      - Adds design and shifts the landscape of tools
+%      - Embraces idea of testing and thinking of malleable questions that the tools might pose
+% - Most campuses have a statistical consulting office, they're very helpful
+%      - (Jeff) Perhaps: http://www.colorado.edu/ibs/crs/statcons.html
+% - Talk about second half, contribution to research literature
+%      - Where do you see yourself publishing?
+%      - Could be a learning sciences contribution
+%      - (Ben) Not fond of CHI. IDC, TEI, ICLS
+%      - (Mike) TOCHI
+%      - (Paulo) IJCCI
+% - The gender data is too close and the sample is too small
+%      - Don't make a mountain out of mole hill
+% - Like classifying the complexity of 3D objects
+% - What do you see your work doing to extend the speech and gesturing landscape?
+%      - (Ben) Not about extending the landscape, more about seeing if it existed. See if design can impact gesturing
+%      - Being too modest
+%      - 3d modeling, learning and growth over time, articulate the contribution of the core questions that the study has asked
+%      - 2-3 papers of the design work and how the design allows you to ask interesting questions
+% - Fluidity between the construction and the modeling / 2d presentation. What affordances does that have?
+%      - (Ben) 2d/3d fluidity in the paper
+%      - The distance between media can really cement learning
+% 
+% 
+% C-Dawg
+% - Second some of the statistics comments
+% - Leave some of the smaller differences alone, i.e. gender variations
+% - Another stats point, people started w, s, or p then switched, so there's a fairly standard analyzes you can try to assess differences in s vs. p and order effects. There's a graphical way to display the data that may suggest this.
+% - Modeling question
+%      - (Ben) Modeled in the first session
+%      - Didn't show which they made with different tool, if you separated that, would there be an obvious difference in what they made?
+%      - (Ben) With the simpler shapes, they could have made them with either devices. With the more abstract ones, it matters
+% - What can you say of the cost of the modeling device?
+%      - (Ben) Not a whole lot: construction paper, conductive tape, led's, micro controller, time, xacto knife
+%      - This might be an aspect of the work you're pursuing, sounds like it's an affordable option, that's pretty cool.
+%      - (Ben) Want to make the designs as sturdy as possible and make them an open source project
+% - Did you record the sessions, can review and see if there was difference between the snap device
+%      - Review number of vertices, etc
+% - What would be involved in making the pop-device out of wood? Balsa wood
+%      - (Ben) Doesn't necessarily have to have any paper engineering
+% - Interesting work!
+% 
+% 
+% Tom Yeh
+% - Having kids work in groups was nice, did you observe any group dynamics with pop-cad? Any anecdotal observations of what kids do together?
+%      - (Ben) Observed interesting dynamics, one controls device, one controls software, turn-taking
+%      - One advantage is the tangible nature and allowing multiple people to work together, traditional 3d modeling software can't do this
+% - Is there accessible 3d modeling software, can blind kids use this?
+%      - (Ben) Talked to Amy and Shaun Kane, not the major thrust, but it's possible
+%      - What would you say to people that would want to adapt your device? What advice would you give?
+%      - (Ben) Need a way to differentiate which axis, which point in space they're dealing with. Audio feedback
+%      - How would you replace the light?
+%      - (Ben) Multiple vibrations of a singular column, with dampening material
+% - I'm a teacher in a high school, how do I start?
+%      - (Ben) Design a sturdier open-source version
+%      - Could it come as a kit?
+%      - (Ben) Yes, but the cost may be more than it's worth
+% 
+% 
+% Mike Eisenberg
+% - Thesis notes in particular
+% - Wanted to see more of a description of the free-hand modeling, that's a success, they were making stuff and playing with it
+%      - Add what they said, what they were doing with it
+%      - 2d writing device, kids were spontaneously were doing that, hadn't thought of that in those terms
+% - Mentioned some initial credit to Julie Debiosie, 3d geo board is a stodgy instrument
+%      - Not much of a mention of the promise for teaching
+%      - Talk about it as a stodgy teaching device for x, y, z coordinates, maybe less free-wheeling but useful things people could do
+% - You don't want to be the uCube guy or the pop-cad guy, you want to be the embodied interfaces guy
+%      - What are these instances of?
+%      - What can we learn about embodied interface design from this?
+%      - What do we know now that we didn't know before?
+%      - What would be inspired by this 5-10 years down the road?
+%      - (Ben) Embodied fabrication device
+% 
+% Audience Questions
+% - (Jeff) Why not switches for blind students?
+% - (Jeff) What happens as the n-dimensions increase?
+% - (Tom) Point and line becomes important in a high dimensional space. Kids are good at building in the minecraft world
+% - (Ben) Could be interesting to have a minecraft mode
+
+
+
 \documentclass[defaultstyle,11pt]{thesis}
 
 \usepackage{amssymb}		% to get all AMS symbols
@@ -34,66 +130,66 @@
 \reader{Clayton Lewis}		%  2nd person to sign thesis
 \readerThree{Tom Yeh}		%  3rd person to sign thesis
 
-\abstract{  \OnePageChapter % because it is very short We present a class of
-devices under the umbrella moniker of ``embodied fabrication''. These devices
-and the development of the term ``embodied fabrication'' is rooted not only in
-computer science, but also in cognitive science, children's educational theory,
-digital fabrication technology, and the convergence of these strands present in
-the do-it-yourself community known as the``maker movement''. As such, we operate
-under a certain set of premises that guide and direct this work. First, that
-embodied cognition - which places the body at the center of our cognitive
-operations - provides a framework in which to ground our decisions to design
-physical peripheral devices as opposed to purely screen-based software. Second,
-that a strong line of research supports providing children with tangible,
-``manipulative'' objects to learn with. Third, that digital fabrication
-technologies - 3D printing in particular - provide a wonderful new opportunity
-for children and novice designers in general to make, play, and explore
-creatively - and that the current design options for 3D printers are not suited
-to meaningful design and creation of objects by non-expert 3D modelers. Finally,
-that by continuing in the best traditions of body-centric interaction design for
-children, a suite of devices can be created to provide an educationally and
-technically rich environment to connect kids to the creative potential of 3D
-printing. We unpack these ideas more in the introduction, followed by an
-overview of all three of the prototype devices and the companion software that
-constitutes this work, a chapter on related work, a chapter on the three user
-studies we performed on these devices, a discussion of the presented studies,
-and finally we present a vision of the future of this work and of embodied
-fabrication devices as a whole before concluding.
+ % because it is very short
+\abstract{  \OnePageChapter We present a class of devices under the umbrella
+moniker of ``embodied fabrication''. These devices and the development of the
+term embodied fabrication is rooted not only in computer science, but in
+cognitive science, childhood educational theory, emerging digital fabrication
+technology, and the convergence of these strands present in the do-it-yourself
+community known as the ``maker movement''. As such, we operate under a certain
+set of premises that guide and direct this work.
+First, that embodied cognition - which places the body at the center of our
+cognitive operations - provides a framework from which to ground our decisions
+to design physical peripheral devices as opposed to purely screen-based
+software. Second, that a strong line of pedagogical research supports providing
+children with tangible, ``manipulative'' objects to learn with. Third, that
+digital fabrication technologies - 3D printing in particular - provide a
+wonderful new opportunity for children and novice designers in general to make,
+play, and explore creatively - and that the current design options for 3D
+printers are not suited to meaningful design and creation of objects by
+non-expert 3D modelers. Finally, that by following the best traditions of
+body-centric interaction design for children, devices can be created to provide
+an educationally and technically rich environment that connects kids to the
+creative potential of 3D printing. We unpack these ideas more in the
+introduction, followed by an overview of three prototype devices belonging to
+this class of ``embodied'' interfaces, a chapter on related work followed by a
+chapter on the three user studies we performed with our devices, a discussion of
+the presented studies, and finally we present a vision of the future of this
+work and of embodied fabrication devices as a whole before concluding.
 }
 
 \dedication[Dedication]{	% NEVER use \OnePageChapter here.
-	To all the killas and the hundred dolla billas.
-	}
+	This work is dedicated to Red Burns, for the opportunity, the honesty, and the
+	paper-smacking. The world is a duller place without you. Thank you.}
 
 \acknowledgements{ \OnePageChapter % *MUST* BE ONLY ONE PAGE! 
 
-I was incredibly fortunate to have found the supporting cast that I had during
-my time at Colorado. My advisor, Michael Eisenberg, is one of the true gems of
-humanity. An unbelievable scholar, gifted writer, and a wonderfully supportive
-and warm person. Over our many hours of discussion he taught me how to love and
-appreciate the world where children's crafts, cognitive science, and
-computation come together. My father, for urging me to visit Mike as I was
-applying to grad school. You always let me know how proud you were.
-You and I are more similar than I ever would have imagined as a child. I see
-that as a wonderful thing. My mother, for her unwavering faith that I would be
-excellent. You were much better at convincing me than I was at convincing
-myself. Your visits were always a chance to recharge my batteries, feel loved,
-and be fed extremely well.
-Monika, for taking the risk of leaving your world behind to join me here in
-Colorado, and for supporting me so well during a very stressful time. You're the
-best cheerleader a guy could ask for. Many others contributed to this work,
-academically and socially. I owe an enormous debt of gratitude to Nathan Siedle,
-whose generosity allowed my work to reach its completion. My committee members
-were all amazing. Ann Eisenberg kept the lab from self-destruction more times
-than I can count. My CTG and CU compatriots for welcoming me to Colorado and
-convincing me to stay. Lindsay Levkoff Diamond, for being an incredibly
-understanding and flexible boss during my studies. The DOE and all my friends at
-SparkFun Electronics - Toni, Amanda, Dave, Brennen, Jordan, (etc.) without you,
-I don't know if I would have made it. And finally, Fran, Anna, Adrian, Victor,
-Galen, and the amazing kids at Gold Crown for their support.
-Thank you all.}
+I was incredibly fortunate to have found the supporting cast that I did during
+my studies. My advisor, Michael Eisenberg is one of the true gems of humanity.
+An unbelievable scholar, gifted writer, and a wonderfully supportive and warm
+person. Our conversations were always inspiring; may there be many more to come.
+My father, for putting Mike on my radar as I was applying to grad school and for
+always letting me know how proud you were. It meant a lot. You and I turned out
+more alike than I ever would have imagined. My mom, for her unwavering faith
+that I would be excellent. You were much better at convincing me than I was at
+convincing myself. Your visits were always a chance to recharge my batteries,
+feel loved, and be fed extremely well. Monika, for taking the risk of leaving
+your world behind to join me in Colorado, and for supporting me so well during a
+stressful time. You're the best cheerleader a guy could ask for. I'm a lucky
+man. Many others supported this work, academically and socially. Credit goes to
+Julie DiBiase, Yingdan Huang, and Kate Starbird for their early work on a
+3DGeoboard. I owe an enormous debt of gratitude to Nathan Seidle, whose
+generosity allowed this work to reach its completion. My committee members were
+all amazingly insightful and supportive. Ann Eisenberg kept the lab from
+self-destruction more times than I can count. Present and past CU students for
+their support (especially Jeff and Swamy in CS and all the MFA kids). Lindsay
+Levkoff Diamond, for being an incredibly understanding and flexible boss during
+my studies. The DoE and all my friends at SparkFun Electronics - without you, I
+don't know if I would have made it. Finally, the staff and students at Gold
+Crown for their amazing support during my user study. Thank you all.}
 
-% \IRBprotocol{E927F29.001X}	% optional!
+\IRBprotocol{13-0476}	%
+% optional!
 
 
 %\ToCisShort	% use this only for 1-page Table of Contents
@@ -124,7 +220,7 @@ Thank you all.}
 \input{4_Evaluation.tex}
 \input{5_Discussion.tex}
 \input{6_vision.tex}
-\input{7_conclusions.tex}
+%\input{7_conclusions.tex}
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
 \bibliographystyle{plain}	% or "siam", or "alpha", etc.
 \nocite{*}		% list all refs in database, cited or not

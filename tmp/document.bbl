@@ -28,6 +28,18 @@ Thingiverse.
 Tinkercad.
 \newblock {\em http://www.tinkercad.com/}, 2013.
 
+\bibitem{CodeBender}
+Codebender.
+\newblock {\em https://codebender.cc/}, 2014.
+
+\bibitem{EyeWriter}
+Eyewriter.
+\newblock {\em http://eyewriter.org}, 2014.
+
+\bibitem{OpenPCR}
+Openpcr.
+\newblock {\em http://openpcr.org/}, 2014.
+
 \bibitem{Abrahamson:2011:TED:1999030.1999031}
 Dor Abrahamson and Dragan Trninic.
 \newblock Toward an embodied-interaction design framework for mathematical
@@ -241,6 +253,14 @@ Michael Eisenberg.
 \newblock In {\em Society for Information Technology \& Teacher Education
   International Conference}, volume 2011, pages 884--891, 2011.
 
+\bibitem{eisenberg1996mathematical}
+Michael Eisenberg and Julie DiBiase.
+\newblock Mathematical manipulatives as designed artifacts: the cognitive,
+  affective, and technological dimensions.
+\newblock In {\em Proceedings of the 1996 international conference on Learning
+  sciences}, pages 44--51. International Society of the Learning Sciences,
+  1996.
+
 \bibitem{Eisenberg:2009:CPR:1551788.1551790}
 Michael Eisenberg, Nwanua Elumeze, Michael MacFerrin, and Leah Buechley.
 \newblock Children's programming, reconsidered: settings, stuff, and surfaces.
@@ -263,6 +283,12 @@ Michael Eisenberg, Ann Nishioka, and M.~E. Schreiner.
 \newblock In {\em Proceedings of the 2nd international conference on
   Intelligent user interfaces}, IUI '97, pages 113--120, New York, NY, USA,
   1997. ACM.
+
+\bibitem{engelbart1968research}
+Douglas~C Engelbart and William~K English.
+\newblock A research center for augmenting human intellect.
+\newblock In {\em Proceedings of the December 9-11, 1968, fall joint computer
+  conference, part I}, pages 395--410. ACM, 1968.
 
 \bibitem{Fabathome}
 Fab@Home.
@@ -354,9 +380,8 @@ Elizabeth~G Hainstock.
 \bibitem{forbes}
 B.~Hart.
 \newblock Will 3d printing change the world?
-\newblock {\em
-  http://www.forbes.com/sites/gcaptain/2012/03/06/will-3d-printing-change-the-world/},
-  2012.
+\newblock {\em http://www.forbes.com
+  /sites/gcaptain/2012/03/06/will-3d-printing-change-the-world/}, 2012.
 
 \bibitem{hart2008procedural}
 George~W Hart.
@@ -498,6 +523,11 @@ G.~Lakoff and R.~Nu\~nez.
 \newblock {\em Where Mathematics Come From: How The Embodied Mind Brings
   Mathematics Into Being}.
 \newblock Basic Books, Inc., 2001.
+
+\bibitem{leducembodied}
+Ben Leduc-Mills.
+\newblock Embodied fabrication: Body-centric tangibles for digital making.
+\newblock {\em FabLearn '13}, 2013.
 
 \bibitem{Leduc-Mills:2011:UCD:1999030.1999039}
 Ben Leduc-Mills and Michael Eisenberg.
@@ -799,6 +829,11 @@ J.~P. Spencer, M.~Clearfield, D.~Corbetta, B.~Ulrich, P.~Buchanan, and
   thelen.
 \newblock In {\em Child Development}, pages 1521--1538, 2006.
 
+\bibitem{starbird3dgeoboard}
+Kate Starbird, Jim Arnow, and Yingdan Huang.
+\newblock 3dgeoboard: Designing a tangible computing interface for educational
+  spaces.
+
 \bibitem{Sylla2012}
 Cristina Sylla, Pedro Branco, S\'{e}rgio Gon\c{c}alves, Clara Coutinho, and
   Paulo Brito.
@@ -813,6 +848,11 @@ Steven~G Vandenberg and Allan~R Kuse.
   visualization.
 \newblock {\em Perceptual and motor skills}, 47(2):599--604, 1978.
 
+\bibitem{voorhees2004embodied}
+Burton Voorhees.
+\newblock Embodied mathematics.
+\newblock {\em Journal of Consciousness Studies}, 11:83--88, 2004.
+
 \bibitem{Wang:2011:TTP:1999030.1999045}
 Danli Wang, Cheng Zhang, and Hongan Wang.
 \newblock T-maze: a tangible programming tool for children.
@@ -826,6 +866,11 @@ Ryoichi Watanabe, Yuichi Itoh, Masatsugu Asai, Yoshifumi Kitamura, Fumio
 \newblock The soul of activecube: implementing a flexible, multimodal,
   three-dimensional spatial tangible interface.
 \newblock {\em Comput. Entertain.}, 2(4):15--15, October 2004.
+
+\bibitem{weiser1991computer}
+Mark Weiser.
+\newblock The computer for the 21st century.
+\newblock {\em Scientific american}, 265(3):94--104, 1991.
 
 \bibitem{Weller:2008:EMT:1463689.1463767}
 Michael~Philetus Weller, Ellen Yi-Luen Do, and Mark~D Gross.

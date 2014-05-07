@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 MAR 2014 23:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  17 APR 2014 15:46
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -233,23 +233,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(./document.aux)
+(./document.aux
+
+LaTeX Warning: Label `GcodingStrategy' multiply defined.
+
+)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-
-(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+ (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
 \scratchdimen=\dimen126
@@ -311,7 +314,7 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 113.
+LaTeX Info: Redefining \subref on input line 209.
 Package caption Info: End \AtBeginDocument code.
 
 Making Title Page
@@ -371,7 +374,7 @@ Making LoF Page
 centered
 (./document.lof [10
 
-] [11] [12] [13])
+] [11] [12] [13] [14])
 \tf@lof=\write5
 \openout5 = `document.lof'.
 
@@ -381,7 +384,7 @@ centered
 -------------------Beginning Body----------------------
 
 
-[14] (./macros.tex
+[15] (./macros.tex
 \c@th@theorem=\count120
 ) (./1_introduction.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
@@ -389,96 +392,110 @@ centered
 [1
 
 
-]) (./2_prototypeSystems.tex [2]
+] <images/makerbot.jpg, id=57, 552.0625pt x 455.7025pt>
+File: images/makerbot.jpg Graphic file (type jpg)
+
+<use images/makerbot.jpg>
+Package pdftex.def Info: images/makerbot.jpg used on input line 64.
+(pdftex.def)             Requested size: 187.89912pt x 155.10367pt.
+
+<images/MB05_REP_Group.jpg, id=58, 2053.6725pt x 1336.995pt>
+File: images/MB05_REP_Group.jpg Graphic file (type jpg)
+
+<use images/MB05_REP_Group.jpg>
+Package pdftex.def Info: images/MB05_REP_Group.jpg used on input line 65.
+(pdftex.def)             Requested size: 234.87749pt x 152.90456pt.
+ [2] [3 <./images/makerbot.jpg> <./images/MB05_REP_Group.jpg>] [4] [5]) (./2_pr
+ototypeSystems.tex [6]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 centered
-[3
+[7
 
-] <images/Geoboard.jpg, id=59, 1114.9655pt x 1106.534pt>
+] <images/Geoboard.jpg, id=78, 1114.9655pt x 1106.534pt>
 File: images/Geoboard.jpg Graphic file (type jpg)
 
 <use images/Geoboard.jpg>
-Package pdftex.def Info: images/Geoboard.jpg used on input line 43.
+Package pdftex.def Info: images/Geoboard.jpg used on input line 47.
 (pdftex.def)             Requested size: 234.87749pt x 233.08813pt.
- [4 <./images/Geoboard.jpg>]
-<images/UCube-3.jpg, id=63, 2813.51125pt x 3580.37625pt>
+ [8 <./images/Geoboard.jpg>]
+<images/UCube-3.jpg, id=82, 2813.51125pt x 3580.37625pt>
 File: images/UCube-3.jpg Graphic file (type jpg)
 
 <use images/UCube-3.jpg>
-Package pdftex.def Info: images/UCube-3.jpg used on input line 69.
+Package pdftex.def Info: images/UCube-3.jpg used on input line 73.
 (pdftex.def)             Requested size: 170.34889pt x 216.81pt.
- <images/UCube-4.jpg, id=64, 2590.67876pt x 3886.52pt>
+ <images/UCube-4.jpg, id=83, 2590.67876pt x 3886.52pt>
 File: images/UCube-4.jpg Graphic file (type jpg)
 
 <use images/UCube-4.jpg>
-Package pdftex.def Info: images/UCube-4.jpg used on input line 70.
+Package pdftex.def Info: images/UCube-4.jpg used on input line 74.
 (pdftex.def)             Requested size: 144.48405pt x 216.81pt.
- [5 <./images/UCube-3.jpg> <./images/UCube-4.jpg>]
-[6] <images/ucube_diagram.png, id=72, 580.0872pt x 626.34pt>
+ [9 <./images/UCube-3.jpg> <./images/UCube-4.jpg>]
+[10] <images/ucube_diagram.png, id=91, 580.0872pt x 626.34pt>
 File: images/ucube_diagram.png Graphic file (type png)
 
 <use images/ucube_diagram.png>
-Package pdftex.def Info: images/ucube_diagram.png used on input line 152.
+Package pdftex.def Info: images/ucube_diagram.png used on input line 155.
 (pdftex.def)             Requested size: 234.87749pt x 253.5994pt.
- [7 <./images/ucube_diagram.png>]
-<images/ucube1_triPrism.jpg, id=78, 1098.504pt x 1464.672pt>
+ [11 <./images/ucube_diagram.png>]
+<images/ucube1_triPrism.jpg, id=97, 1098.504pt x 1464.672pt>
 File: images/ucube1_triPrism.jpg Graphic file (type jpg)
 
 <use images/ucube1_triPrism.jpg>
-Package pdftex.def Info: images/ucube1_triPrism.jpg used on input line 203.
+Package pdftex.def Info: images/ucube1_triPrism.jpg used on input line 206.
 (pdftex.def)             Requested size: 122.12646pt x 166.21pt.
 
-<images/ucube1_software.png, id=79, 696.6025pt x 593.21625pt>
+<images/ucube1_software.png, id=98, 696.6025pt x 593.21625pt>
 File: images/ucube1_software.png Graphic file (type png)
 
 <use images/ucube1_software.png>
-Package pdftex.def Info: images/ucube1_software.png used on input line 204.
+Package pdftex.def Info: images/ucube1_software.png used on input line 207.
 (pdftex.def)             Requested size: 150.31934pt x 166.21709pt.
 
-<images/IMG_0425.jpg, id=80, 1464.672pt x 1098.504pt>
+<images/IMG_0425.jpg, id=99, 1464.672pt x 1098.504pt>
 File: images/IMG_0425.jpg Graphic file (type jpg)
 
 <use images/IMG_0425.jpg>
-Package pdftex.def Info: images/IMG_0425.jpg used on input line 205.
+Package pdftex.def Info: images/IMG_0425.jpg used on input line 208.
 (pdftex.def)             Requested size: 150.31981pt x 166.21pt.
- [8] [9 <./images/ucube1_triPrism.jpg> <./images/ucube1_software.png> <./images
-/IMG_0425.jpg>]
-<images/snap_schematic.png, id=87, 240.9pt x 234.1548pt>
-File: images/snap_schematic.png Graphic file (type png)
-
-<use images/snap_schematic.png>
-Package pdftex.def Info: images/snap_schematic.png used on input line 263.
-(pdftex.def)             Requested size: 211.3883pt x 205.47447pt.
- [10 <./images/snap_schematic.png>] [11]
-<images/BeatriceFinal-9.jpg, id=99, 3886.52pt x 2590.67876pt>
+ [12] [13 <./images/ucube1_triPrism.jpg> <./images/ucube1_software.png> <./imag
+es/IMG_0425.jpg>]
+<images/BeatriceFinal-9.jpg, id=106, 3886.52pt x 2590.67876pt>
 File: images/BeatriceFinal-9.jpg Graphic file (type jpg)
 
 <use images/BeatriceFinal-9.jpg>
-Package pdftex.def Info: images/BeatriceFinal-9.jpg used on input line 326.
+Package pdftex.def Info: images/BeatriceFinal-9.jpg used on input line 264.
 (pdftex.def)             Requested size: 211.3883pt x 140.88678pt.
 
-<images/BeatriceFinal-14.jpg, id=100, 3887.52374pt x 2591.6825pt>
+<images/BeatriceFinal-14.jpg, id=107, 3887.52374pt x 2591.6825pt>
 File: images/BeatriceFinal-14.jpg Graphic file (type jpg)
 
 <use images/BeatriceFinal-14.jpg>
-Package pdftex.def Info: images/BeatriceFinal-14.jpg used on input line 327.
+Package pdftex.def Info: images/BeatriceFinal-14.jpg used on input line 265.
 (pdftex.def)             Requested size: 211.3883pt x 140.90182pt.
- [12 <./images/BeatriceFinal-9.jpg> <./images/BeatriceFinal-14.jpg>]
-<images/BeatriceFinal-2.jpg, id=105, 3886.52pt x 2590.67876pt>
+ [14 <./images/BeatriceFinal-9.jpg> <./images/BeatriceFinal-14.jpg>] [15]
+<images/snap_schematic.png, id=117, 240.9pt x 234.1548pt>
+File: images/snap_schematic.png Graphic file (type png)
+
+<use images/snap_schematic.png>
+Package pdftex.def Info: images/snap_schematic.png used on input line 330.
+(pdftex.def)             Requested size: 211.3883pt x 205.47447pt.
+ [16 <./images/snap_schematic.png>]
+<images/BeatriceFinal-2.jpg, id=123, 3886.52pt x 2590.67876pt>
 File: images/BeatriceFinal-2.jpg Graphic file (type jpg)
 
 <use images/BeatriceFinal-2.jpg>
-Package pdftex.def Info: images/BeatriceFinal-2.jpg used on input line 376.
+Package pdftex.def Info: images/BeatriceFinal-2.jpg used on input line 378.
 (pdftex.def)             Requested size: 211.3883pt x 140.88678pt.
 
-<images/twoHulls.png, id=106, 1145.27875pt x 591.20876pt>
+<images/twoHulls.png, id=124, 1145.27875pt x 591.20876pt>
 File: images/twoHulls.png Graphic file (type png)
 
 <use images/twoHulls.png>
-Package pdftex.def Info: images/twoHulls.png used on input line 377.
+Package pdftex.def Info: images/twoHulls.png used on input line 379.
 (pdftex.def)             Requested size: 211.3883pt x 109.11931pt.
- [13 <./images/BeatriceFinal-2.jpg> <./images/twoHulls.png>] <images/snap_game1
-.png, id=110, 115.632pt x 114.6684pt>
+ [17 <./images/BeatriceFinal-2.jpg> <./images/twoHulls.png>] <images/snap_game1
+.png, id=128, 115.632pt x 114.6684pt>
 File: images/snap_game1.png Graphic file (type png)
 
 <use images/snap_game1.png>
@@ -489,423 +506,502 @@ File: images/BeatriceFinal-2.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/BeatriceFinal-2.jpg used on input line 410.
 (pdftex.def)             Requested size: 234.87749pt x 156.54086pt.
 
-<images/snap_game2.png, id=111, 115.632pt x 114.6684pt>
+<images/snap_game2.png, id=129, 115.632pt x 114.6684pt>
 File: images/snap_game2.png Graphic file (type png)
 
 <use images/snap_game2.png>
 Package pdftex.def Info: images/snap_game2.png used on input line 411.
 (pdftex.def)             Requested size: 187.90858pt x 159.00891pt.
 
-<images/BeatriceFinal-3.jpg, id=112, 3886.52pt x 2590.67876pt>
+<images/BeatriceFinal-3.jpg, id=130, 3886.52pt x 2590.67876pt>
 File: images/BeatriceFinal-3.jpg Graphic file (type jpg)
 
 <use images/BeatriceFinal-3.jpg>
 Package pdftex.def Info: images/BeatriceFinal-3.jpg used on input line 412.
 (pdftex.def)             Requested size: 234.87749pt x 156.54086pt.
- [14] [15 <./images/snap_game1.png> <./images/snap_game2.png> <./images/Beatric
+ [18] [19 <./images/snap_game1.png> <./images/snap_game2.png> <./images/Beatric
 eFinal-3.jpg>]
-<images/popcad25.jpg, id=121, 3276.24pt x 2457.18pt>
+<images/popcad25.jpg, id=139, 3276.24pt x 2457.18pt>
 File: images/popcad25.jpg Graphic file (type jpg)
  <use images/popcad25.jpg>
 Package pdftex.def Info: images/popcad25.jpg used on input line 520.
 (pdftex.def)             Requested size: 211.3883pt x 158.5225pt.
 
-<images/popcad44.jpg, id=122, 3276.24pt x 2457.18pt>
+<images/popcad44.jpg, id=140, 3276.24pt x 2457.18pt>
 File: images/popcad44.jpg Graphic file (type jpg)
  <use images/popcad44.jpg>
 Package pdftex.def Info: images/popcad44.jpg used on input line 521.
 (pdftex.def)             Requested size: 211.3883pt x 158.5225pt.
 
-[16] <images/PopCadSchematicV1.png, id=126, 382.0674pt x 672.5928pt>
+[20] <images/PopCadSchematicV1.png, id=144, 382.0674pt x 672.5928pt>
 File: images/PopCadSchematicV1.png Graphic file (type png)
 
 <use images/PopCadSchematicV1.png>
-Package pdftex.def Info: images/PopCadSchematicV1.png used on input line 553.
+Package pdftex.def Info: images/PopCadSchematicV1.png used on input line 555.
 (pdftex.def)             Requested size: 187.89912pt x 330.77411pt.
 
-<images/PopCadSchematicV2.png, id=127, 389.7762pt x 652.3572pt>
+<images/PopCadSchematicV2.png, id=145, 389.7762pt x 652.3572pt>
 File: images/PopCadSchematicV2.png Graphic file (type png)
 
 <use images/PopCadSchematicV2.png>
-Package pdftex.def Info: images/PopCadSchematicV2.png used on input line 554.
+Package pdftex.def Info: images/PopCadSchematicV2.png used on input line 556.
 (pdftex.def)             Requested size: 197.29623pt x 330.20923pt.
 
-<images/pop3.jpg, id=128, 3011.25pt x 4015.0pt>
+<images/pop3.jpg, id=146, 3011.25pt x 4015.0pt>
 File: images/pop3.jpg Graphic file (type jpg)
  <use images/pop3.jpg>
-Package pdftex.def Info: images/pop3.jpg used on input line 579.
+Package pdftex.def Info: images/pop3.jpg used on input line 583.
 (pdftex.def)             Requested size: 187.89912pt x 250.50804pt.
 
-<images/popcad_pic2.jpg, id=129, 3011.25pt x 4015.0pt>
+<images/popcad_pic2.jpg, id=147, 3011.25pt x 4015.0pt>
 File: images/popcad_pic2.jpg Graphic file (type jpg)
 
 <use images/popcad_pic2.jpg>
-Package pdftex.def Info: images/popcad_pic2.jpg used on input line 580.
+Package pdftex.def Info: images/popcad_pic2.jpg used on input line 584.
 (pdftex.def)             Requested size: 187.89912pt x 250.50804pt.
- [17 <./images/popcad25.jpg> <./images/popcad44.jpg>] [18 <./images/PopCadSchem
+ [21 <./images/popcad25.jpg> <./images/popcad44.jpg>] [22 <./images/PopCadSchem
 aticV1.png (PNG copy)> <./images/PopCadSchematicV2.png (PNG copy)>] <images/pop
-_circuit2-2.jpg, id=137, 2263.45625pt x 3019.28pt>
+_circuit2-2.jpg, id=155, 2263.45625pt x 3019.28pt>
 File: images/pop_circuit2-2.jpg Graphic file (type jpg)
 
 <use images/pop_circuit2-2.jpg>
-Package pdftex.def Info: images/pop_circuit2-2.jpg used on input line 613.
+Package pdftex.def Info: images/pop_circuit2-2.jpg used on input line 617.
 (pdftex.def)             Requested size: 140.92792pt x 187.9674pt.
 
-<images/popcad_circuit-3.jpg, id=138, 2218.2875pt x 3198.95125pt>
+<images/popcad_circuit-3.jpg, id=156, 2218.2875pt x 3198.95125pt>
 File: images/popcad_circuit-3.jpg Graphic file (type jpg)
 
 <use images/popcad_circuit-3.jpg>
-Package pdftex.def Info: images/popcad_circuit-3.jpg used on input line 615.
+Package pdftex.def Info: images/popcad_circuit-3.jpg used on input line 619.
 (pdftex.def)             Requested size: 195.44006pt x 281.85585pt.
- [19 <./images/pop3.jpg> <./images/popcad_pic2.jpg>] [20 <./images/pop_circuit2
+ [23 <./images/pop3.jpg> <./images/popcad_pic2.jpg>] [24 <./images/pop_circuit2
 -2.jpg> <./images/popcad_circuit-3.jpg>]
-[21] [22] [23] <images/software_1.png, id=155, 242.3454pt x 97.8054pt>
+[25] [26] [27] <images/software_1.png, id=172, 242.3454pt x 97.8054pt>
 File: images/software_1.png Graphic file (type png)
 
 <use images/software_1.png>
-Package pdftex.def Info: images/software_1.png used on input line 839.
+Package pdftex.def Info: images/software_1.png used on input line 846.
 (pdftex.def)             Requested size: 220.78542pt x 89.10452pt.
 
-<images/software_2.png, id=156, 240.9pt x 100.6962pt>
+<images/software_2.png, id=173, 240.9pt x 100.6962pt>
 File: images/software_2.png Graphic file (type png)
 
 <use images/software_2.png>
-Package pdftex.def Info: images/software_2.png used on input line 840.
+Package pdftex.def Info: images/software_2.png used on input line 847.
 (pdftex.def)             Requested size: 220.78542pt x 92.29129pt.
- <images/hulls.jpg, id=157, 4015.0pt x 3011.25pt>
+ <images/hulls.jpg, id=174, 4015.0pt x 3011.25pt>
 File: images/hulls.jpg Graphic file (type jpg)
 
 <use images/hulls.jpg>
-Package pdftex.def Info: images/hulls.jpg used on input line 861.
+Package pdftex.def Info: images/hulls.jpg used on input line 868.
 (pdftex.def)             Requested size: 234.87749pt x 176.11836pt.
- [24 <./images/software_1.png> <./images/software_2.png>] <images/paths.jpg, id
-=163, 4015.0pt x 3011.25pt>
+ [28 <./images/software_1.png> <./images/software_2.png>] <images/paths.jpg, id
+=181, 4015.0pt x 3011.25pt>
 File: images/paths.jpg Graphic file (type jpg)
  <use images/paths.jpg>
-Package pdftex.def Info: images/paths.jpg used on input line 892.
+Package pdftex.def Info: images/paths.jpg used on input line 899.
 (pdftex.def)             Requested size: 234.87749pt x 176.11836pt.
 
-[25 <./images/hulls.jpg>]
-<images/trefoilPath.png, id=167, 461.725pt x 412.54124pt>
+[29 <./images/hulls.jpg>]
+<images/trefoilPath.png, id=185, 461.725pt x 412.54124pt>
 File: images/trefoilPath.png Graphic file (type png)
 
 <use images/trefoilPath.png>
-Package pdftex.def Info: images/trefoilPath.png used on input line 919.
+Package pdftex.def Info: images/trefoilPath.png used on input line 926.
 (pdftex.def)             Requested size: 234.87749pt x 209.85818pt.
- [26 <./images/paths.jpg>]
-<images/somaCube.jpg, id=171, 4015.0pt x 3011.25pt>
+ [30 <./images/paths.jpg>]
+<images/somaCube.jpg, id=189, 4015.0pt x 3011.25pt>
 File: images/somaCube.jpg Graphic file (type jpg)
  <use images/somaCube.jpg>
-Package pdftex.def Info: images/somaCube.jpg used on input line 955.
-(pdftex.def)             Requested size: 216.09044pt x 162.05829pt.
+Package pdftex.def Info: images/somaCube.jpg used on input line 962.
+(pdftex.def)             Requested size: 211.3883pt x 158.52031pt.
 
-<images/somaPieces.jpg, id=172, 4015.0pt x 3011.25pt>
+<images/somaPieces.jpg, id=190, 4015.0pt x 3011.25pt>
 File: images/somaPieces.jpg Graphic file (type jpg)
 
 <use images/somaPieces.jpg>
-Package pdftex.def Info: images/somaPieces.jpg used on input line 956.
-(pdftex.def)             Requested size: 216.09044pt x 162.05829pt.
- [27 <./images/trefoilPath.png>]
+Package pdftex.def Info: images/somaPieces.jpg used on input line 963.
+(pdftex.def)             Requested size: 211.3883pt x 158.52031pt.
+ [31 <./images/trefoilPath.png>]
 Missing character: There is no Ð in font cmr10!
-
-<images/trees.jpg, id=176, 3963.80875pt x 2973.1075pt>
+ [32 <./images/somaCube.jpg> <./images/somaPieces.jpg>]
+<images/trees.jpg, id=197, 3963.80875pt x 2973.1075pt>
 File: images/trees.jpg Graphic file (type jpg)
  <use images/trees.jpg>
-Package pdftex.def Info: images/trees.jpg used on input line 992.
+Package pdftex.def Info: images/trees.jpg used on input line 999.
 (pdftex.def)             Requested size: 234.87749pt x 176.15582pt.
 
-[28 <./images/somaCube.jpg> <./images/somaPieces.jpg>] [29 <./images/trees.jpg>
-] [30] <images/edit1.png, id=187, 969.6225pt x 454.69875pt>
+[33 <./images/trees.jpg>] [34]
+<images/edit1.png, id=205, 969.6225pt x 454.69875pt>
 File: images/edit1.png Graphic file (type png)
-
-<use images/edit1.png>
-Package pdftex.def Info: images/edit1.png used on input line 1080.
+ <use images/edit1.png>
+Package pdftex.def Info: images/edit1.png used on input line 1087.
 (pdftex.def)             Requested size: 206.68935pt x 115.63095pt.
- <images/edit2.png, id=188, 1010.77625pt x 576.1525pt>
+
+<images/edit2.png, id=206, 1010.77625pt x 576.1525pt>
 File: images/edit2.png Graphic file (type png)
-
-<use images/edit2.png>
-Package pdftex.def Info: images/edit2.png used on input line 1081.
+ <use images/edit2.png>
+Package pdftex.def Info: images/edit2.png used on input line 1088.
 (pdftex.def)             Requested size: 206.68608pt x 115.63286pt.
- <images/edit3.png, id=189, 984.67876pt x 562.1pt>
+
+<images/edit3.png, id=207, 984.67876pt x 562.1pt>
 File: images/edit3.png Graphic file (type png)
-
-<use images/edit3.png>
-Package pdftex.def Info: images/edit3.png used on input line 1082.
+ <use images/edit3.png>
+Package pdftex.def Info: images/edit3.png used on input line 1089.
 (pdftex.def)             Requested size: 206.68346pt x 115.62578pt.
- <images/edit4.png, id=190, 1010.77625pt x 558.085pt>
-File: images/edit4.png Graphic file (type png)
 
-<use images/edit4.png>
-Package pdftex.def Info: images/edit4.png used on input line 1083.
+<images/edit4.png, id=208, 1010.77625pt x 558.085pt>
+File: images/edit4.png Graphic file (type png)
+ <use images/edit4.png>
+Package pdftex.def Info: images/edit4.png used on input line 1090.
 (pdftex.def)             Requested size: 206.68608pt x 115.6259pt.
- [31]
-<images/userShapes1.jpg, id=194, 3880.4975pt x 2910.875pt>
+
+[35] [36 <./images/edit1.png> <./images/edit2.png> <./images/edit3.png> <./imag
+es/edit4.png>] <images/userShapes1.jpg, id=216, 3880.4975pt x 2910.875pt>
 File: images/userShapes1.jpg Graphic file (type jpg)
 
 <use images/userShapes1.jpg>
-Package pdftex.def Info: images/userShapes1.jpg used on input line 1130.
+Package pdftex.def Info: images/userShapes1.jpg used on input line 1137.
 (pdftex.def)             Requested size: 234.87749pt x 176.15512pt.
- [32 <./images/edit1.png> <./images/edit2.png> <./images/edit3.png> <./images/e
-dit4.png>]) (./3_RelatedWork.tex [33 <./images/userShapes1.jpg>]
+) (./3_RelatedWork.tex [37 <./images/userShapes1.jpg>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
-[34
+[38
 
-]
+] [39]
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ð in font cmr10!
- [35] [36] [37] <images/elect_popables.jpg, id=215, 256.96pt x 192.72pt>
+ [40] [41] <images/elect_popables.jpg, id=233, 256.96pt x 192.72pt>
 File: images/elect_popables.jpg Graphic file (type jpg)
 
 <use images/elect_popables.jpg>
-Package pdftex.def Info: images/elect_popables.jpg used on input line 167.
+Package pdftex.def Info: images/elect_popables.jpg used on input line 163.
 (pdftex.def)             Requested size: 211.3883pt x 158.54308pt.
 
-<images/living_wall.jpg, id=216, 240.9pt x 180.675pt>
+<images/living_wall.jpg, id=234, 240.9pt x 180.675pt>
 File: images/living_wall.jpg Graphic file (type jpg)
 
 <use images/living_wall.jpg>
-Package pdftex.def Info: images/living_wall.jpg used on input line 168.
+Package pdftex.def Info: images/living_wall.jpg used on input line 164.
 (pdftex.def)             Requested size: 211.3883pt x 158.5451pt.
- [38 <./images/elect_popables.jpg> <./images/living_wall.jpg>] <images/activecu
-be.png, id=220, 582.175pt x 268.00125pt>
+ [42 <./images/elect_popables.jpg> <./images/living_wall.jpg>] <images/activecu
+be.png, id=238, 582.175pt x 268.00125pt>
 File: images/activecube.png Graphic file (type png)
 
 <use images/activecube.png>
-Package pdftex.def Info: images/activecube.png used on input line 221.
+Package pdftex.def Info: images/activecube.png used on input line 217.
 (pdftex.def)             Requested size: 253.66454pt x 116.77179pt.
 
-<images/roblocks.png, id=221, 573.14125pt x 383.4325pt>
+<images/roblocks.png, id=239, 573.14125pt x 383.4325pt>
 File: images/roblocks.png Graphic file (type png)
 
 <use images/roblocks.png>
-Package pdftex.def Info: images/roblocks.png used on input line 222.
+Package pdftex.def Info: images/roblocks.png used on input line 218.
 (pdftex.def)             Requested size: 173.80704pt x 116.27682pt.
 
-<images/interactiveLaser.png, id=222, 378.41376pt x 309.155pt>
+<images/interactiveLaser.png, id=240, 378.41376pt x 309.155pt>
 File: images/interactiveLaser.png Graphic file (type png)
 
 <use images/interactiveLaser.png>
-Package pdftex.def Info: images/interactiveLaser.png used on input line 244.
+Package pdftex.def Info: images/interactiveLaser.png used on input line 240.
 (pdftex.def)             Requested size: 187.89912pt x 153.511pt.
 
-<images/interactiveFab.png, id=223, 575.14874pt x 356.33125pt>
+<images/interactiveFab.png, id=241, 575.14874pt x 356.33125pt>
 File: images/interactiveFab.png Graphic file (type png)
 
 <use images/interactiveFab.png>
-Package pdftex.def Info: images/interactiveFab.png used on input line 245.
+Package pdftex.def Info: images/interactiveFab.png used on input line 241.
 (pdftex.def)             Requested size: 253.66454pt x 157.15594pt.
 
-<images/kidcad.png, id=224, 527.9725pt x 425.59pt>
+<images/kidcad.png, id=242, 527.9725pt x 425.59pt>
 File: images/kidcad.png Graphic file (type png)
  <use images/kidcad.png>
-Package pdftex.def Info: images/kidcad.png used on input line 260.
+Package pdftex.def Info: images/kidcad.png used on input line 256.
 (pdftex.def)             Requested size: 211.3883pt x 170.39532pt.
 
-<images/easigami.png, id=225, 824.07875pt x 620.3175pt>
+<images/easigami.png, id=243, 824.07875pt x 620.3175pt>
 File: images/easigami.png Graphic file (type png)
 
 <use images/easigami.png>
-Package pdftex.def Info: images/easigami.png used on input line 261.
+Package pdftex.def Info: images/easigami.png used on input line 257.
 (pdftex.def)             Requested size: 211.3883pt x 159.12067pt.
- [39 <./images/activecube.png> <./images/roblocks.png>] [40 <./images/interacti
-veLaser.png> <./images/interactiveFab.png>]
+ [43] [44 <./images/activecube.png> <./images/roblocks.png>]
 Missing character: There is no Ð in font cmr10!
- [41 <./images/kidcad.png> <./images/easigami.png>]) (./4_Evaluation.tex [42]
+) (./4_Evaluation.tex [45 <./images/interactiveLaser.png> <./images/interactive
+Fab.png>] [46 <./images/kidcad.png> <./images/easigami.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
 centered
-<images/ucubescreentest.png, id=239, 1260.71pt x 620.3175pt>
+[47
+
+] <images/ucubescreentest.png, id=260, 1260.71pt x 620.3175pt>
 File: images/ucubescreentest.png Graphic file (type png)
 
 <use images/ucubescreentest.png>
-Package pdftex.def Info: images/ucubescreentest.png used on input line 31.
+Package pdftex.def Info: images/ucubescreentest.png used on input line 35.
 (pdftex.def)             Requested size: 375.80542pt x 184.90405pt.
- [43
-
-] [44 <./images/ucubescreentest.png>]
-[45] [46] [47] <images/ucube_shapes.png, id=256, 1410.26875pt x 792.9625pt>
+ [48 <./images/ucubescreentest.png>] [49]
+[50] [51] <images/ucube_shapes.png, id=273, 1410.26875pt x 792.9625pt>
 File: images/ucube_shapes.png Graphic file (type png)
 
 <use images/ucube_shapes.png>
-Package pdftex.def Info: images/ucube_shapes.png used on input line 173.
+Package pdftex.def Info: images/ucube_shapes.png used on input line 175.
 (pdftex.def)             Requested size: 375.80542pt x 211.30772pt.
+ [52 <./images/ucube_shapes.png>]
 Missing character: There is no Õ in font cmr10!
- [48 <./images/ucube_shapes.png>]
-<images/modeling1.png, id=260, 400.8576pt x 202.8378pt>
+
+<images/modeling1.png, id=278, 400.8576pt x 202.8378pt>
 File: images/modeling1.png Graphic file (type png)
 
 <use images/modeling1.png>
-Package pdftex.def Info: images/modeling1.png used on input line 215.
+Package pdftex.def Info: images/modeling1.png used on input line 217.
 (pdftex.def)             Requested size: 220.79042pt x 126.47308pt.
 
-<images/modeling2.png, id=261, 405.1938pt x 225.9642pt>
+<images/modeling2.png, id=279, 405.1938pt x 225.9642pt>
 File: images/modeling2.png Graphic file (type png)
 
 <use images/modeling2.png>
-Package pdftex.def Info: images/modeling2.png used on input line 216.
+Package pdftex.def Info: images/modeling2.png used on input line 218.
 (pdftex.def)             Requested size: 220.78606pt x 126.47357pt.
- [49 <./images/modeling1.png> <./images/modeling2.png>] <images/matching1.png, 
-id=267, 402.7848pt x 183.5658pt>
+ [53 <./images/modeling1.png> <./images/modeling2.png>] <images/matching1.png, 
+id=285, 402.7848pt x 183.5658pt>
 File: images/matching1.png Graphic file (type png)
 
 <use images/matching1.png>
-Package pdftex.def Info: images/matching1.png used on input line 255.
+Package pdftex.def Info: images/matching1.png used on input line 256.
 (pdftex.def)             Requested size: 220.7825pt x 126.47285pt.
 
-<images/matching2.png, id=268, 396.0396pt x 185.493pt>
+<images/matching2.png, id=286, 396.0396pt x 185.493pt>
 File: images/matching2.png Graphic file (type png)
 
 <use images/matching2.png>
-Package pdftex.def Info: images/matching2.png used on input line 256.
+Package pdftex.def Info: images/matching2.png used on input line 257.
 (pdftex.def)             Requested size: 220.78354pt x 126.47038pt.
- [50 <./images/matching1.png> <./images/matching2.png>] <images/idc3.png, id=27
-4, 248.93pt x 233.87375pt>
+ [54 <./images/matching1.png> <./images/matching2.png>] <images/idc3.png, id=29
+2, 248.93pt x 233.87375pt>
 File: images/idc3.png Graphic file (type png)
  <use images/idc3.png>
-Package pdftex.def Info: images/idc3.png used on input line 278.
+Package pdftex.def Info: images/idc3.png used on input line 279.
 (pdftex.def)             Requested size: 187.89912pt x 176.53612pt.
 
-<images/ucube1_user.jpg, id=275, 1464.672pt x 1098.504pt>
+<images/ucube1_user.jpg, id=293, 1464.672pt x 1098.504pt>
 File: images/ucube1_user.jpg Graphic file (type jpg)
 
 <use images/ucube1_user.jpg>
-Package pdftex.def Info: images/ucube1_user.jpg used on input line 279.
+Package pdftex.def Info: images/ucube1_user.jpg used on input line 280.
 (pdftex.def)             Requested size: 234.87749pt x 176.14975pt.
 Missing character: There is no Ð in font cmr10!
- [51 <./images/idc3.png> <./images/ucube1_user.jpg>] [52] [53] <images/SpatialT
-estArray.png, id=286, 571.13374pt x 525.965pt>
+ [55 <./images/idc3.png> <./images/ucube1_user.jpg>] [56] [57] <images/SpatialT
+estArray.png, id=303, 571.13374pt x 525.965pt>
 File: images/SpatialTestArray.png Graphic file (type png)
 
 <use images/SpatialTestArray.png>
-Package pdftex.def Info: images/SpatialTestArray.png used on input line 388.
+Package pdftex.def Info: images/SpatialTestArray.png used on input line 390.
 (pdftex.def)             Requested size: 234.87749pt x 216.2971pt.
- [54 <./images/SpatialTestArray.png>]
-<images/round1shapes.jpg, id=291, 4015.0pt x 3011.25pt>
+ [58 <./images/SpatialTestArray.png>]
+<images/round1shapes.jpg, id=309, 4015.0pt x 3011.25pt>
 File: images/round1shapes.jpg Graphic file (type jpg)
 
 <use images/round1shapes.jpg>
-Package pdftex.def Info: images/round1shapes.jpg used on input line 423.
+Package pdftex.def Info: images/round1shapes.jpg used on input line 426.
 (pdftex.def)             Requested size: 220.78542pt x 165.55034pt.
 
-<images/round2shapes.jpg, id=292, 3967.82375pt x 2976.11874pt>
+<images/round2shapes.jpg, id=310, 3967.82375pt x 2976.11874pt>
 File: images/round2shapes.jpg Graphic file (type jpg)
 
 <use images/round2shapes.jpg>
-Package pdftex.def Info: images/round2shapes.jpg used on input line 424.
+Package pdftex.def Info: images/round2shapes.jpg used on input line 427.
 (pdftex.def)             Requested size: 220.78542pt x 165.57162pt.
- [55 <./images/round1shapes.jpg> <./images/round2shapes.jpg>] [56]
-Overfull \hbox (2.59874pt too wide) in paragraph at lines 523--523
+ [59 <./images/round1shapes.jpg> <./images/round2shapes.jpg>] [60]
+Overfull \hbox (2.59874pt too wide) in paragraph at lines 525--525
 []|[]\OT1/cmr/m/n/10 Movement| 
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 523--523
+Underfull \hbox (badness 2293) in paragraph at lines 525--525
 []|\OT1/cmr/m/n/10 Any in-di-ca-tion of move-
  []
 
 
-Overfull \hbox (3.87651pt too wide) in paragraph at lines 525--525
+Overfull \hbox (3.87651pt too wide) in paragraph at lines 527--527
 []|[]\OT1/cmr/m/n/10 Perceptual
  []
 
 
-Overfull \hbox (3.87651pt too wide) in paragraph at lines 528--528
+Overfull \hbox (3.87651pt too wide) in paragraph at lines 530--530
 []|[]\OT1/cmr/m/n/10 Perceptual
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 529--529
+Underfull \hbox (badness 3601) in paragraph at lines 531--531
 []|[]\OT1/cmr/m/n/10 Gesture in-di-cat-ing in-clu-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 531--532
+Underfull \hbox (badness 1571) in paragraph at lines 533--534
 \OT1/cmr/m/n/10 com-puter de-vice that do
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 531--532
+Underfull \hbox (badness 2012) in paragraph at lines 533--534
 \OT1/cmr/m/n/10 not in-di-cate any spe-cific
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 533--533
+Underfull \hbox (badness 4859) in paragraph at lines 535--535
 []|\OT1/cmr/m/n/10 Any strat-egy not listed
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 534--537
+Underfull \hbox (badness 1342) in paragraph at lines 536--539
 \OT1/cmr/m/n/10 straight line through the
  []
 
-[57] [58] [59]
-<images/modelTimesPerDevice.png, id=309, 416.757pt x 278.9622pt>
-File: images/modelTimesPerDevice.png Graphic file (type png)
+[61] [62] [63] <images/avgtimesmod.png, id=326, 416.757pt x 278.9622pt>
+File: images/avgtimesmod.png Graphic file (type png)
 
-<use images/modelTimesPerDevice.png>
-Package pdftex.def Info: images/modelTimesPerDevice.png used on input line 696.
-
+<use images/avgtimesmod.png>
+Package pdftex.def Info: images/avgtimesmod.png used on input line 700.
 (pdftex.def)             Requested size: 258.36667pt x 172.942pt.
 
-<images/modelTimesPerMode.png, id=310, 416.757pt x 278.4804pt>
-File: images/modelTimesPerMode.png Graphic file (type png)
+<images/avgtimesmodeltype.png, id=327, 416.757pt x 278.4804pt>
+File: images/avgtimesmodeltype.png Graphic file (type png)
 
-<use images/modelTimesPerMode.png>
-Package pdftex.def Info: images/modelTimesPerMode.png used on input line 697.
+<use images/avgtimesmodeltype.png>
+Package pdftex.def Info: images/avgtimesmodeltype.png used on input line 701.
 (pdftex.def)             Requested size: 258.36667pt x 172.6433pt.
- [60 <./images/modelTimesPerDevice.png> <./images/modelTimesPerMode.png>]
-<images/MTTshapeChar.png, id=316, 642.2394pt x 218.2554pt>
-File: images/MTTshapeChar.png Graphic file (type png)
+ [64 <./images/avgtimesmod.png> <./images/avgtimesmodeltype.png>] <images/mttSh
+ape.png, id=334, 642.2394pt x 236.5638pt>
+File: images/mttShape.png Graphic file (type png)
 
-<use images/MTTshapeChar.png>
-Package pdftex.def Info: images/MTTshapeChar.png used on input line 776.
-(pdftex.def)             Requested size: 422.77661pt x 143.676pt.
+<use images/mttShape.png>
+Package pdftex.def Info: images/mttShape.png used on input line 850.
+(pdftex.def)             Requested size: 422.77661pt x 155.72829pt.
+ [65]
+<images/mttPerf.png, id=338, 643.6848pt x 238.0092pt>
+File: images/mttPerf.png Graphic file (type png)
+ <use images/mttPerf.png>
+Package pdftex.def Info: images/mttPerf.png used on input line 926.
+(pdftex.def)             Requested size: 422.77661pt x 156.33115pt.
 
-<images/MTTPerformance.png, id=317, 578.16pt x 217.7736pt>
-File: images/MTTPerformance.png Graphic file (type png)
+[66 <./images/mttShape.png> <./images/mttPerf.png>] [67]
+<images/g1.png, id=347, 716.6775pt x 394.47375pt>
+File: images/g1.png Graphic file (type png)
+ <use images/g1.png>
+Package pdftex.def Info: images/g1.png used on input line 1059.
+(pdftex.def)             Requested size: 140.92792pt x 77.56912pt.
 
-<use images/MTTPerformance.png>
-Package pdftex.def Info: images/MTTPerformance.png used on input line 852.
-(pdftex.def)             Requested size: 422.77661pt x 159.24588pt.
- [61] [62 <./images/MTTshapeChar.png> <./images/MTTPerformance.png>] [63] [64]
-<images/GesturePerfBreakdown.png, id=332, 709.6914pt x 460.119pt>
-File: images/GesturePerfBreakdown.png Graphic file (type png)
+<images/g2.png, id=348, 718.685pt x 394.47375pt>
+File: images/g2.png Graphic file (type png)
+ <use images/g2.png>
+Package pdftex.def Info: images/g2.png used on input line 1060.
+(pdftex.def)             Requested size: 140.92792pt x 77.35243pt.
 
-<use images/GesturePerfBreakdown.png>
-Package pdftex.def Info: images/GesturePerfBreakdown.png used on input line 100
-3.
-(pdftex.def)             Requested size: 399.2946pt x 258.87247pt.
- [65 <./images/GesturePerfBreakdown.png>]
-<images/SpeechBreakdown.png, id=338, 712.5822pt x 460.119pt>
-File: images/SpeechBreakdown.png Graphic file (type png)
+<images/g3.png, id=349, 716.6775pt x 395.4775pt>
+File: images/g3.png Graphic file (type png)
+ <use images/g3.png>
+Package pdftex.def Info: images/g3.png used on input line 1061.
+(pdftex.def)             Requested size: 140.92792pt x 77.76651pt.
 
-<use images/SpeechBreakdown.png>
-Package pdftex.def Info: images/SpeechBreakdown.png used on input line 1032.
-(pdftex.def)             Requested size: 399.2946pt x 257.83337pt.
- [66 <./images/SpeechBreakdown.png>] [67])
-(./5_Discussion.tex [68]
+<images/g4.png, id=350, 717.68124pt x 394.47375pt>
+File: images/g4.png Graphic file (type png)
+ <use images/g4.png>
+Package pdftex.def Info: images/g4.png used on input line 1062.
+(pdftex.def)             Requested size: 140.92792pt x 77.46078pt.
+
+<images/g5.png, id=351, 716.6775pt x 394.47375pt>
+File: images/g5.png Graphic file (type png)
+ <use images/g5.png>
+Package pdftex.def Info: images/g5.png used on input line 1063.
+(pdftex.def)             Requested size: 140.92792pt x 77.56912pt.
+
+<images/g6.png, id=352, 715.67375pt x 394.47375pt>
+File: images/g6.png Graphic file (type png)
+ <use images/g6.png>
+Package pdftex.def Info: images/g6.png used on input line 1064.
+(pdftex.def)             Requested size: 140.92792pt x 77.67747pt.
+ [68]
+[69 <./images/g1.png> <./images/g2.png> <./images/g3.png> <./images/g4.png> <./
+images/g5.png> <./images/g6.png>]
+<images/gestureGraph.png, id=359, 721.7364pt x 502.9992pt>
+File: images/gestureGraph.png Graphic file (type png)
+
+<use images/gestureGraph.png>
+Package pdftex.def Info: images/gestureGraph.png used on input line 1104.
+(pdftex.def)             Requested size: 399.2946pt x 278.28522pt.
+ [70 <./images/gestureGraph.png>]
+<images/speechGraph.png, id=365, 721.7364pt x 501.072pt>
+File: images/speechGraph.png Graphic file (type png)
+
+<use images/speechGraph.png>
+Package pdftex.def Info: images/speechGraph.png used on input line 1133.
+(pdftex.def)             Requested size: 399.2946pt x 277.219pt.
+ [71 <./images/speechGraph.png>] [72])
+(./5_Discussion.tex [73]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
 centered
-[69
+[74
 
-] [70] [71] [72] [73] [74] [75] [76] [77]) (./6_vision.tex [78] [79]
+] [75] [76] [77] [78] [79] [80] [81] [82]
+<images/userShapesAll.jpg, id=405, 3052.40375pt x 2607.7425pt>
+File: images/userShapesAll.jpg Graphic file (type jpg)
+
+<use images/userShapesAll.jpg>
+Package pdftex.def Info: images/userShapesAll.jpg used on input line 365.
+(pdftex.def)             Requested size: 258.36667pt x 220.7201pt.
+ [83 <./images/userShapesAll.jpg>] [84] [85]
+[86] [87] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 599--607
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--607
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--607
+
+ []
+
+[89] [90]) (./6_vision.tex [91]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 6.
 centered
-) (./7_conclusions.tex [80
+[92
 
-]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 7.
-centered
-) (./document.bbl [81
+] [93] [94] [95] <images/yun.png, id=448, 776.9025pt x 593.21625pt>
+File: images/yun.png Graphic file (type png)
 
-]
+<use images/yun.png>
+Package pdftex.def Info: images/yun.png used on input line 152.
+(pdftex.def)             Requested size: 187.89912pt x 143.47006pt.
+ <images/codebender.png, id=449, 1218.5525pt x 624.3325pt>
+File: images/codebender.png Graphic file (type png)
+
+<use images/codebender.png>
+Package pdftex.def Info: images/codebender.png used on input line 153.
+(pdftex.def)             Requested size: 234.87422pt x 144.53658pt.
+ [96 <./images/yun.png> <./images/codebender.png>]
+<images/eyewriter.jpg, id=453, 602.25pt x 401.5pt>
+File: images/eyewriter.jpg Graphic file (type jpg)
+ <use images/eyewriter.jpg>
+Package pdftex.def Info: images/eyewriter.jpg used on input line 198.
+(pdftex.def)             Requested size: 281.85585pt x 187.90858pt.
+
+<images/openPCR.jpg, id=454, 1947.275pt x 2678.005pt>
+File: images/openPCR.jpg Graphic file (type jpg)
+ <use images/openPCR.jpg>
+Package pdftex.def Info: images/openPCR.jpg used on input line 199.
+(pdftex.def)             Requested size: 140.92792pt x 193.7724pt.
+
+[97] [98 <./images/eyewriter.jpg> <./images/openPCR.jpg>] [99]) (./document.bbl
+[100]
 centered
-[82
+[101
 
 ]
 ! Undefined control sequence.
-l.132 Otakar Bor{\uu
+l.144 Otakar Bor{\uu
                     }vka.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -914,9 +1010,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no Ñ in font cmr10!
-[83] [84]
+[102] [103]
 ! Misplaced alignment tab character &.
-l.311 \newblock A. Lovell &
+l.337 \newblock A. Lovell &
                             Company, New York, 1886.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -925,14 +1021,14 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[85]
-Overfull \hbox (184.27895pt too wide) in paragraph at lines 355--360
-[][]\OT1/cmr/m/n/10.95 B. Hart.  Will 3d print-ing change the world?  |   [],
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+[][]\OT1/cmr/m/n/10.95 B. Hart.  Will 3d print-ing change the world?  |   []
  []
 
-[86]
+[105]
 ! Undefined control sequence.
-l.451 \newblock Fr\š
+l.476 \newblock Fr\š
                     bel's forgotten gift: textile construction kits as pathw...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -940,13 +1036,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[87] [88]
+[106] [107]
 Missing character: There is no Õ in font cmr10!
- [89] [90]
+ [108] [109]
 ! Misplaced alignment tab character &.
 <argument> \@empty &
                     
-l.861 ...block {\em Psychonomic Bulletin & Review}
+l.906 ...block {\em Psychonomic Bulletin & Review}
                                                   , 9(4):625--636, 2002.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -955,38 +1051,155 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) (./appendixA.tex [91]
+[110]) (./appendixA.tex [111]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle A.
 centered
-[92
+<images/UCube_dam_poster.png, id=502, 1249.7892pt x 1681.9638pt>
+File: images/UCube_dam_poster.png Graphic file (type png)
 
-]) (./appendixB.tex [93]
+<use images/UCube_dam_poster.png>
+Package pdftex.def Info: images/UCube_dam_poster.png used on input line 6.
+(pdftex.def)             Requested size: 291.24579pt x 391.9508pt.
+
+<images/FabLearn_Poster.pdf, id=503, 2890.8pt x 2168.1pt>
+File: images/FabLearn_Poster.pdf Graphic file (type pdf)
+
+<use images/FabLearn_Poster.pdf>
+Package pdftex.def Info: images/FabLearn_Poster.pdf used on input line 17.
+(pdftex.def)             Requested size: 422.77661pt x 317.06268pt.
+) (./appendixB.tex [112
+
+ <./images/UCube_dam_poster.png (PNG copy)>] [113 <./images/FabLearn_Poster.pdf
+>]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle B.
 centered
-) [94
 
-] (./document.aux) ) 
+Overfull \hbox (2.59874pt too wide) in paragraph at lines 20--20
+[]|[]\OT1/cmr/m/n/10 Movement| 
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 20--20
+[]|\OT1/cmr/m/n/10 Any in-di-ca-tion of move-
+ []
+
+
+Overfull \hbox (3.87651pt too wide) in paragraph at lines 22--22
+[]|[]\OT1/cmr/m/n/10 Perceptual
+ []
+
+
+Overfull \hbox (3.87651pt too wide) in paragraph at lines 25--25
+[]|[]\OT1/cmr/m/n/10 Perceptual
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 26--28
+[]|[]\OT1/cmr/m/n/10 Gesture in-di-cat-ing in-clu-
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 26--28
+\OT1/cmr/m/n/10 sion of the whole shape
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 com-puter de-vice that do
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 not in-di-cate any spe-cific
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 31--31
+[]|\OT1/cmr/m/n/10 Any strat-egy not listed
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 32--36
+\OT1/cmr/m/n/10 straight line through the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+ []
+
+[114
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
+
+ []
+
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
+
+ []
+
+) [117] (./document.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4611 strings out of 493633
- 70558 string characters out of 3143378
- 143588 words of memory out of 3000000
- 7736 multiletter control sequences out of 15000+200000
+ 4699 strings out of 493633
+ 72123 string characters out of 3143378
+ 143865 words of memory out of 3000000
+ 7812 multiletter control sequences out of 15000+200000
  14721 words of font info for 57 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  44i,15n,42p,669b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on document.pdf (108 pages, 29341459 bytes).
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on document.pdf (132 pages, 49580190 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
+ 677 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
